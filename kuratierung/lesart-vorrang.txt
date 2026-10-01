@@ -1,0 +1,328 @@
+# Erste Lesart (angezeigte Schreibung) von Hand festlegen, wo die Heuristik in
+# build_lexicon.py („Lesarten“) die unwahrscheinlichere wählt. Wirkt nur auf die Reihenfolge der
+# Zeilen in ziel.tsv, nie darauf, ob eine Form Ziel ist.
+# Format: form  lemma[:wortart]  # Grund
+adjektiv      adjektiv:noun      # das Substantiv Adjektiv
+andenken      andenken:noun      # das Andenken (Souvenir), nicht das seltene Verb
+arbeiten      arbeiten:verb      # das Verb arbeiten, nicht der Plural von Arbeit
+ausbauen      ausbauen:verb      # das Verb ausbauen, nicht der Plural von Ausbau
+ausdrucken    ausdrucken:verb    # das Verb ausdrucken, nicht der Dativ Plural von Ausdruck
+ausdrücken    ausdrücken:verb    # das Verb ausdrücken, nicht der Dativ Plural von Ausdruck
+automobil     automobil:noun     # das Substantiv Automobil, nicht das seltene Adjektiv
+bedeutend     bedeutend:adj      # Adjektiv bedeutend
+beginne       beginnen:verb      # Verbform (ich beginne), nicht ein Plural von Beginn
+belange       belang:noun        # Belange (Anliegen), nicht das Verb belangen
+beliebt       beliebt:adj        # Adjektiv beliebt, nicht das Verb belieben
+beliebte      beliebt:adj        # Adjektivform von beliebt
+beliebten     beliebt:adj        # Adjektivform von beliebt, nicht das Verb belieben
+berühmte      berühmt:adj        # Adjektivform von berühmt, nicht das veraltete Verb berühmen
+berühmten     berühmt:adj        # Adjektivform von berühmt, nicht das veraltete Verb berühmen
+beschrieb     beschreiben:verb   # Präteritum von beschreiben, nicht das schweizerische Substantiv
+bestände      bestand:noun       # Bestände ist meist der Plural von Bestand, nicht der Konjunktiv von bestehen
+blicken       blicken:verb       # das Verb blicken, nicht der Dativ Plural von Blick
+brauner       braun:adj          # Adjektivform, nicht das braune Pferd
+brettern      brett:noun         # Dativ Plural von Brett, nicht das Adjektiv „aus Brettern“
+bändern       band:noun          # Dativ Plural von Band, nicht das Webverb
+champagner    champagner:noun    # das Getränk, nicht das Farbadjektiv
+dominante     dominant:adj       # Adjektivform von dominant, nicht der Musikbegriff
+doppelt       doppelt:adj        # Adjektiv doppelt, nicht das Verb doppeln
+doppelte      doppelt:adj        # Adjektivform von doppelt
+doppelten     doppelt:adj        # Adjektivform von doppelt, nicht das Verb doppeln
+dritter       dritte:num         # Ordnungszahl, nicht das Substantiv
+drucken       drucken:verb       # das Verb drucken, nicht der Dativ Plural von Druck
+dunkles       dunkel:adj         # Adjektivform (ein dunkles Zimmer), nicht das Bier
+duschen       duschen:verb       # das Verb duschen, nicht der Plural von Dusche
+eintritt      eintritt:noun      # das Substantiv Eintritt
+erfahrener    erfahren:adj       # Adjektivform von erfahren
+erneute       erneut:adj         # Adjektivform von erneut, nicht das veraltete Verb erneuen
+erneuten      erneut:adj         # Adjektivform von erneut, nicht das veraltete Verb erneuen
+experte       experte:noun       # das Substantiv Experte, nicht das veraltete Adjektiv expert
+experten      experte:noun       # Plural von Experte, nicht das veraltete Adjektiv expert
+farbige       farbig:adj         # Adjektivform (farbige Bilder); die Personenbezeichnung ist veraltet und heikel
+fichten       fichte:noun        # Plural von Fichte, nicht das Stoffadjektiv
+fischen       fischen:verb       # das Verb fischen ist die naheliegende Lesart, nicht der Dativ Plural von Fisch
+fliesen       fliese:noun        # Plural von Fliese
+flügeln       flügel:noun        # Dativ Plural von Flügel, nicht das poetische Verb
+forscher      forscher:noun      # Forscher (Person), nicht der Komparativ von forsch
+fronten       front:noun         # Fronten ist der Plural von Front, nicht eine Form von fronen
+führender     führend:adj        # Adjektivform von führend
+fünftel       fünftel:noun       # das Substantiv Fünftel
+fünfter       fünfte:num         # Ordnungszahl, nicht das Substantiv
+gefällt       gefallen:verb      # Verbform von gefallen (es gefällt mir), nicht von fällen
+gelangt       gelangen:verb      # Verbform von gelangen, nicht von gelingen
+gerecht       gerecht:adj        # das Adjektiv gerecht, nicht das Partizip von rechen
+gerechter     gerecht:adj        # Adjektivform von gerecht
+gittern       gitter:noun        # Dativ Plural von Gitter
+glauben       glauben:verb       # das Verb glauben, nicht das Substantiv
+heiraten      heiraten:verb      # das Verb heiraten, nicht der Plural von Heirat
+hinreißen     hinreißen:verb     # das Verb hinreißen
+hälften       hälfte:noun        # Plural von Hälfte, nicht das seltene Verb
+hübscher      hübsch:adj         # Adjektivform von hübsch
+illegaler     illegal:adj        # Adjektivform von illegal
+kapseln       kapsel:noun        # Plural von Kapsel
+kiefern       kiefer:noun        # Plural von Kiefer, nicht das Stoffadjektiv
+klatschen     klatschen:verb     # das Verb klatschen
+kommune       kommune:noun       # das Substantiv Kommune, nicht das seltene Adjektiv kommun
+kommunen      kommune:noun       # Kommunen ist der Plural von Kommune, nicht das seltene Adjektiv kommun
+kontakten     kontakt:noun       # Dativ Plural von Kontakt
+kontinent     kontinent:noun     # das Substantiv Kontinent, nicht das medizinische Adjektiv
+kontingent    kontingent:noun    # das Substantiv Kontingent, nicht das seltene Adjektiv
+kranker       krank:adj          # Adjektivform von krank
+lebender      lebend:adj         # Adjektivform von lebend
+legenden      legende:noun       # Plural von Legende
+liberaler     liberal:adj        # Adjektivform von liberal
+lichter       licht:noun         # Plural von Licht
+mehrere       mehrere:pron       # Indefinitpronomen mehrere, nicht eine Form von viel
+mehreren      mehrere:pron       # Indefinitpronomen mehrere, nicht eine Form von viel
+mehrerer      mehrere:pron       # Indefinitpronomen mehrere, nicht eine Form von viel
+meister       meister:noun       # das Substantiv Meister
+meistern      meistern:verb      # das Verb meistern ist die naheliegende Lesart, nicht der Dativ Plural von Meister
+messern       messer:noun        # Dativ Plural von Messer
+mängeln       mangel:noun        # Dativ Plural von Mangel
+nachsehen     nachsehen:verb     # das Verb nachsehen
+nachweisen    nachweisen:verb    # das Verb nachweisen
+nackter       nackt:adj          # Adjektivform von nackt
+oberste       ober:adj           # Adjektiv (die oberste Stufe), nicht der Dienstgrad Oberst
+obersten      ober:adj           # Adjektiv (die obersten Stufen), nicht der Dienstgrad Oberst
+offenbar      offenbar:adj       # das Adjektiv/Adverb offenbar, nicht das Verb offenbaren
+orangen       orange:noun        # Plural von Orange (Frucht)
+panzern       panzer:noun        # Dativ Plural von Panzer
+pfeifen       pfeifen:verb       # das Verb pfeifen
+potenzial     potenzial:noun     # das Substantiv Potenzial
+pseudonym     pseudonym:noun     # das Substantiv Pseudonym
+radikaler     radikal:adj        # Adjektivform von radikal
+rationale     rational:adj       # Adjektivform von rational, nicht das liturgische Gewandstück
+raucher       raucher:noun       # das Substantiv Raucher
+rechten       recht:adj          # Adjektivform von recht (die rechten Hand), nicht das Verb rechen/rechten
+schaden       schaden:noun       # das Substantiv Schaden
+schalte       schalten:verb      # Verbform von schalten
+schauer       schauer:noun       # das Substantiv Schauer
+schiene       schiene:noun       # das Substantiv Schiene, nicht der Konjunktiv von scheinen
+schlafe       schlafen:verb      # Verbform von schlafen
+schlich       schleichen:verb    # Präteritum von schleichen
+schließe      schließen:verb     # Verbform von schließen
+schmuck       schmuck:noun       # das Substantiv Schmuck
+schreibe      schreiben:verb     # Verbform von schreiben
+schwacher     schwach:adj        # Adjektivform von schwach
+schütte       schütten:verb      # Verbform von schütten
+sechster      sechste:num        # Ordnungszahl
+sommerfest    sommerfest:noun    # das Substantiv Sommerfest
+sperren       sperren:verb       # das Verb sperren
+spielende     spielend:adj       # Adjektivform (spielende Kinder)
+spritzen      spritzen:verb      # das Verb spritzen
+stiller       still:adj          # Adjektivform von still
+stolzer       stolz:adj          # Adjektivform von stolz
+streiten      streiten:verb      # das Verb streiten
+ständen       stand:noun         # Dativ Plural von Stand
+stürmen       stürmen:verb       # das Verb stürmen
+synonym       synonym:noun       # das Substantiv Synonym
+trocknen      trocknen:verb      # das Verb trocknen
+tropfen       tropfen:noun       # das Substantiv Tropfen
+träumen       träumen:verb       # das Verb träumen
+unterlagen    unterlage:noun     # Unterlagen (Dokumente), nicht das Präteritum von unterliegen
+urteilen      urteilen:verb      # das Verb urteilen
+vanille       vanille:noun       # das Substantiv Vanille, nicht das Farbadjektiv
+variante      variante:noun      # das Substantiv Variante, nicht das Adjektiv variant
+varianten     variante:noun      # Plural von Variante
+verbänden     verband:noun       # Verbänden ist der Dativ Plural von Verband, nicht der Konjunktiv von verbinden
+verfahren     verfahren:noun     # das Substantiv Verfahren
+vergesse      vergessen:verb     # Verbform von vergessen
+vergesst      vergessen:verb     # Verbform von vergessen
+vergisst      vergessen:verb     # Verbform von vergessen
+verhalten     verhalten:noun     # das Substantiv Verhalten
+verkehrt      verkehrt:adj       # Adjektiv verkehrt (falsch), nicht das Verb verkehren
+verladen      verladen:verb      # das Verb verladen
+vermögen      vermögen:noun      # das Substantiv Vermögen
+verrückt      verrückt:adj       # Adjektiv verrückt, nicht das Verb verrücken
+verrückte     verrückt:adj       # Adjektivform von verrückt, nicht das Verb verrücken
+verrückten    verrückt:adj       # Adjektivform von verrückt, nicht das Verb verrücken
+verstand      verstand:noun      # das Substantiv Verstand
+vertikale     vertikal:adj       # Adjektivform von vertikal
+vertrauen     vertrauen:noun     # das Substantiv Vertrauen
+verwandt      verwandt:adj       # Adjektiv verwandt, nicht das Partizip von verwenden
+verwandte     verwandte:noun     # Verwandte (Angehörige), nicht das Präteritum von verwenden
+verwandten    verwandte:noun     # Verwandten (Angehörige), nicht das Präteritum von verwenden
+vierter       vierte:num         # Ordnungszahl
+windeln       windel:noun        # Windeln ist meist der Plural von Windel
+zehntel       zehntel:noun       # das Substantiv Zehntel
+zustande      zustande:adv       # das Adverb (zustande kommen)
+zutaten       zutat:noun         # Plural von Zutat, nicht eine Form von zutun
+zweifeln      zweifeln:verb      # das Verb zweifeln
+zweiter       zweite:num         # Ordnungszahl
+ältester      alt:adj            # Adjektivform von alt
+
+# === Durchgang 3 (2026-09-30): Grauzone der 3–6-Buchstaben-Formen. Nur Formen, deren
+# angezeigte Lesart klar nicht die vertraute ist (regen, laden, wagen, rücken, plan, licht, wert,
+# schuld; seltene Verben vor Pluralen wie adern, fasern; alte Dative wie bilde, lade vor der
+# Verbform). Echte Gleichstände (essen/Essen, arme/Arme, junge/Junge, folgen/Folgen) bleiben.
+# Dazu fünf neue Themenwörter aus ziel-pflicht.txt, deren Lesart nicht zum Bild passte (buchten …).
+achten    achten:verb    # das Verb achten, nicht der Dativ des Zahlworts acht
+achter    achte:num      # Ordnungszahl
+adern     ader:noun      # Adern (Blutgefäße), nicht das seltene Verb adern
+angeln    angeln:verb    # das Verb angeln, nicht der Plural von Angel
+baue      bauen:verb     # Verbform (ich baue)
+baute     bauen:verb     # Präteritum von bauen
+belege    beleg:noun     # Belege ist der Plural von Beleg, nicht „ich belege“
+bergen    berg:noun      # in den Bergen; das Verb bergen ist seltener
+beten     beten:verb     # das Verb beten
+bilde     bilden:verb    # Verbform (ich bilde), nicht der alte Dativ von Bild
+birken    birke:noun     # Plural von Birke, nicht das Stoffadjektiv birken
+bitten    bitten:verb    # das Verb bitten, nicht der Plural von Bitte
+bolzen    bolzen:noun    # das Substantiv Bolzen, nicht das Verb bolzen (ugs.)
+brausen   brausen:verb   # das Verb brausen (Wind, Wasser), nicht der Plural von Brause (neues Themenwort)
+brut      brut:noun      # das Substantiv Brut, nicht das Sektadjektiv brut
+buche     buche:noun     # der Baum Buche, nicht ein alter Dativ von Buch
+buchen    buchen:verb    # das Verb buchen, nicht das Stoffadjektiv buchen
+buchten   bucht:noun     # Plural von Bucht, nicht das Präteritum von buchen (neues Themenwort)
+denke     denken:verb    # Verbform (ich denke), nicht die Denke (ugs.)
+dies      dies:pron      # das Pronomen dies
+doppel    doppel:noun    # das Substantiv Doppel, keine Form von doppeln
+drehe     drehen:verb    # Verbform (ich drehe)
+drücke    drücken:verb   # Verbform (ich drücke)
+ebene     ebene:noun     # das Substantiv Ebene, nicht die Adjektivform von eben
+ebenen    ebene:noun     # Plural von Ebene
+eiche     eiche:noun     # der Baum Eiche, nicht das Verb eichen
+eichen    eiche:noun     # Plural von Eiche, nicht das Stoffadjektiv eichen
+ernten    ernten:verb    # das Verb ernten
+erster    erste:num      # Ordnungszahl
+esse      essen:verb     # Verbform (ich esse), nicht die Esse (Schmiede)
+extra     extra:adv      # das Adverb extra
+faden     faden:noun     # das Substantiv Faden, nicht die Adjektivform von fad
+fakten    fakt:noun      # Plural von Fakt, nicht eine Form von faken
+fallen    fallen:verb    # das Verb fallen
+fasern    faser:noun     # Plural von Faser, nicht das seltene Verb fasern
+feiern    feiern:verb    # das Verb feiern
+fetter    fett:adj       # Adjektivform von fett
+fetzen    fetzen:noun    # das Substantiv Fetzen, nicht das Verb fetzen (ugs.)
+filmen    filmen:verb    # das Verb filmen
+finale    finale:noun    # das Substantiv Finale, nicht die Adjektivform von final
+flotte    flotte:noun    # das Substantiv Flotte, nicht die Adjektivform von flott
+flucht    flucht:noun    # das Substantiv Flucht, nicht „er flucht“
+flöten    flöte:noun     # Plural von Flöte
+fossil    fossil:noun    # das Substantiv Fossil
+fugen     fuge:noun      # Plural von Fuge, nicht das seltene Verb fugen
+füllen    füllen:verb    # das Verb füllen
+gatten    gatte:noun     # Gatten (Ehemann), nicht das seltene Verb gatten
+gebet     gebet:noun     # das Substantiv Gebet, nicht eine Form von geben
+gehör     gehör:noun     # das Substantiv Gehör, nicht eine Form von gehören
+gel       gel:noun       # das Substantiv Gel (Haargel)
+gelbes    gelb:adj       # Adjektivform von gelb
+gewann    gewinnen:verb  # Präteritum von gewinnen, nicht das seltene Gewann
+grollen   grollen:verb   # das Verb grollen (Donner) (neues Themenwort)
+gucke     gucken:verb    # Verbform (ich gucke)
+gurken    gurke:noun     # Plural von Gurke, nicht das Verb gurken (ugs.)
+haken     haken:noun     # das Substantiv Haken
+halte     halten:verb    # Verbform (ich halte)
+hasse     hassen:verb    # Verbform (ich hasse)
+haut      haut:noun      # das Substantiv Haut, nicht „er haut“
+hebe      heben:verb     # Verbform (ich hebe)
+hecken    hecke:noun     # Plural von Hecke, nicht das seltene Verb hecken
+helles    hell:adj       # Adjektivform von hell
+hetzen    hetzen:verb    # das Verb hetzen
+hopfen    hopfen:noun    # das Substantiv Hopfen, nicht das seltene Verb hopfen
+kappen    kappe:noun     # Plural von Kappe
+karren    karren:noun    # das Substantiv Karren
+kaufe     kaufen:verb    # Verbform (ich kaufe)
+kippen    kippen:verb    # das Verb kippen
+klasse    klasse:noun    # das Substantiv Klasse, nicht das Adjektiv klasse (ugs.)
+klinge    klinge:noun    # das Substantiv Klinge, nicht „ich klinge“
+klänge    klang:noun     # Plural von Klang, nicht der Konjunktiv von klingen
+kohlen    kohle:noun     # Plural von Kohle, nicht das Verb kohlen (ugs.)
+kost      kost:noun      # das Substantiv Kost, nicht eine Form von kosen
+krähen    krähe:noun     # Plural von Krähe
+lache     lachen:verb    # Verbform (ich lache)
+lade      laden:verb     # Verbform (ich lade), nicht die Lade (Schublade)
+laden     laden:noun     # das Substantiv Laden (Geschäft), Grauzone aus Durchgang 1
+lagern    lagern:verb    # das Verb lagern
+landen    landen:verb    # das Verb landen
+lappen    lappen:noun    # das Substantiv Lappen, nicht das seltene Verb lappen
+lavendel  lavendel:noun  # die Pflanze Lavendel, nicht das Farbadjektiv (neues Themenwort)
+leine     leine:noun     # das Substantiv Leine, nicht das Stoffadjektiv leinen
+leinen    leinen:noun    # das Substantiv Leinen (Stoff, auch Plural von Leine)
+leite     leiten:verb    # Verbform (ich leite)
+lese      lesen:verb     # Verbform (ich lese), nicht die Lese (Weinlese)
+licht     licht:noun     # das Substantiv Licht, nicht das seltene Adjektiv licht
+liebe     liebe:noun     # das Substantiv Liebe
+linde     linde:noun     # der Baum Linde, nicht die Adjektivform von lind
+linden    linde:noun     # Plural von Linde
+linsen    linse:noun     # Plural von Linse, nicht das Verb linsen (ugs.)
+loben     loben:verb     # das Verb loben
+malen     malen:verb     # das Verb malen
+mauer     mauer:noun     # das Substantiv Mauer, nicht der Komparativ von mau
+melde     melden:verb    # Verbform (ich melde), nicht die Pflanze Melde
+messen    messen:verb    # das Verb messen
+miese     mies:adj       # Adjektivform von mies
+mittel    mittel:noun    # das Substantiv Mittel, nicht das Adjektiv mittel
+mitten    mitten:adv     # das Adverb mitten, nicht der Plural von Mitte
+nadeln    nadel:noun     # Plural von Nadel, nicht das seltene Verb nadeln
+naive     naiv:adj       # Adjektivform von naiv
+netzen    netz:noun      # Dativ Plural von Netz, nicht das seltene Verb netzen
+ober      ober:noun      # das Substantiv Ober (Kellner)
+oberer    ober:adj       # Adjektivform von ober-
+ochsen    ochse:noun     # Plural von Ochse, nicht das Verb ochsen (ugs.)
+paare     paar:noun      # Plural von Paar
+parken    parken:verb    # das Verb parken
+passe     passen:verb    # Verbform (ich passe)
+perlen    perle:noun     # Plural von Perle, nicht das Stoffadjektiv perlen
+plan      plan:noun      # das Substantiv Plan, nicht das seltene Adjektiv plan; Grauzone aus Durchgang 1
+platte    platte:noun    # das Substantiv Platte, nicht die Adjektivform von platt
+portal    portal:noun    # das Substantiv Portal
+raste     rasen:verb     # Präteritum von rasen, nicht die Raste
+raten     raten:verb     # das Verb raten, nicht der Plural von Rate
+rauch     rauch:noun     # das Substantiv Rauch, nicht das seltene Adjektiv rauch
+recht     recht:adv      # recht (recht gut), nicht eine Form von rechen
+reden     reden:verb     # das Verb reden
+regen     regen:noun     # das Substantiv Regen; Grauzone aus Durchgang 1
+reich     reich:adj      # das Adjektiv reich, nicht der Imperativ von reichen
+reiche    reich:adj      # Adjektivform von reich, nicht „ich reiche“
+reifen    reifen:noun    # das Substantiv Reifen
+rippen    rippe:noun     # Plural von Rippe
+robben    robbe:noun     # Plural von Robbe
+roch      riechen:verb   # Präteritum von riechen, nicht der Vogel Roch
+rodeln    rodeln:verb    # das Verb rodeln (neues Themenwort)
+russen    russe:noun     # Plural von Russe, nicht das seltene Verb russen
+röhren    röhre:noun     # Plural von Röhre
+rücken    rücken:noun    # das Substantiv Rücken; Grauzone aus Durchgang 1
+sage      sagen:verb     # Verbform (ich sage)
+schein    schein:noun    # das Substantiv Schein, nicht eine Form von scheinen
+schied    scheiden:verb  # Präteritum von scheiden
+schoss    schießen:verb  # Präteritum von schießen
+schuld    schuld:noun    # das Substantiv Schuld; Grauzone aus Durchgang 1
+seilen    seil:noun      # Dativ Plural von Seil, nicht das seltene Verb seilen
+siegen    siegen:verb    # das Verb siegen
+spitze    spitze:noun    # das Substantiv Spitze, nicht „ich spitze“
+stier     stier:noun     # das Substantiv Stier, nicht das Adjektiv stier
+stände    stand:noun     # Plural von Stand, nicht der Konjunktiv von stehen
+suchen    suchen:verb    # das Verb suchen
+sucht     suchen:verb    # Verbform (er sucht), die weit häufigere Lesart
+tanken    tanken:verb    # das Verb tanken
+tannen    tanne:noun     # Plural von Tanne, nicht das Stoffadjektiv tannen
+taube     taube:noun     # das Substantiv Taube, nicht die Adjektivform von taub
+tauben    taube:noun     # Plural von Taube
+tauber    taub:adj       # Adjektivform von taub
+teilen    teilen:verb    # das Verb teilen
+testen    testen:verb    # das Verb testen
+trage     tragen:verb    # Verbform (ich trage), nicht die Trage
+träger    träger:noun    # das Substantiv Träger, nicht der Komparativ von träge
+wache     wache:noun     # das Substantiv Wache
+wagen     wagen:noun     # das Substantiv Wagen; Grauzone aus Durchgang 1
+warf      werfen:verb    # Präteritum von werfen, nicht die Warf (Wurt)
+warte     warten:verb    # Verbform (warte!), nicht die Warte
+warten    warten:verb    # das Verb warten
+weiser    weise:adj      # Komparativ von weise
+wenden    wenden:verb    # das Verb wenden
+wert      wert:noun      # das Substantiv Wert; Grauzone aus Durchgang 1
+werte     wert:noun      # Plural von Wert
+werten    werten:verb    # das Verb werten, nicht eine Adjektivform von wert
+wiesen    wiese:noun     # Plural von Wiese, nicht das Präteritum von weisen
+willen    wille:noun     # das Substantiv Willen, nicht die Präposition (um … willen)
+wolle     wolle:noun     # das Substantiv Wolle, nicht der Konjunktiv von wollen
+wunde     wunde:noun     # das Substantiv Wunde, nicht die Adjektivform von wund
+wunden    wunde:noun     # Plural von Wunde
+wunder    wunder:noun    # das Substantiv Wunder
+wurst     wurst:noun     # das Substantiv Wurst, nicht das Adjektiv wurst (ugs.)
+wölfen    wolf:noun      # Dativ Plural von Wolf, nicht das seltene Verb wölfen
+wüsten    wüste:noun     # Plural von Wüste, nicht das seltene Verb wüsten
+zelten    zelten:verb    # das Verb zelten
+zielen    zielen:verb    # das Verb zielen
+ärger     ärger:noun     # das Substantiv Ärger

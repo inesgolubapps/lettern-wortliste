@@ -1,0 +1,108 @@
+# Kurzwörter (Clippings wie Reha ← Rehabilitation), die als ganz normale Wörter
+# gelten und deshalb NICHT als Abkürzung ausgeschlossen werden.
+#
+# Regel (scripts/build_lexicon.py, KURZ_*): Ein Substantiv/Adjektiv mit höchstens
+# 6 Buchstaben gilt als Kurzwort, wenn die Etymologie im deutschen Wiktionary es
+# ausdrücklich so nennt („Kurzwort", „Kopfwort", „Silbenwort", „Akronym" …) oder
+# jeder Eintrag im englischen Wiktionary „Clipping of …" / „Syllabic abbreviation
+# of …" sagt. Solche Wörter fliegen aus BEIDEN Listen (Vorbild-Beschwerde über
+# REHA, ALU) — außer
+#   * sie sind häufig (Zipf ≥ 4,0: Uni, Kita, Prof, Bus bleiben automatisch), oder
+#   * sie stehen hier.
+#
+# Maßstab für diese Liste: Das Wort ist die übliche Alltagsbezeichnung der Sache
+# und wird nicht als Abkürzung empfunden. Alle erkannten Kurzwörter mit Häufigkeit
+# und Status stehen in out/diag/kurzwoerter.tsv — die Kuratierung ergänzt hier.
+#
+# Bewusst NICHT hier (bleiben ausgeschlossen): reha, azubi, kripo, schiri, groko,
+# navi, bafög, touri, depri, späti, chemo, reli, sozi, ossi, wessi.
+auto
+bus
+kino
+foto
+zoo
+taxi
+kilo
+labor
+lok
+tram
+akku
+krimi
+profi
+pulli
+limo
+klo
+info
+demo
+mathe
+abo
+uni
+abi
+deo
+promi
+disko
+kuli
+bio
+gymnasium
+moped
+motor
+radio
+fax
+bar
+pop
+rock
+jazz
+team
+oma
+opa
+mama
+papa
+# Nachtrag nach Durchsicht von out/diag/kurzwoerter.tsv (2026-09-29): alte oder
+# längst eingebürgerte Kürzungen, die niemand als Abkürzung empfindet
+kneipe
+pommes
+sekt
+kombi
+metro
+öko
+teddy
+mikro
+spital
+cabrio
+schoko
+cello
+taler
+dia
+expo
+stereo
+modem
+pils
+posse
+füller
+mofa
+gaudi
+empore
+fesch
+cyborg
+napalm
+polio
+flak
+yuppie
+hippo
+telex
+steno
+imitat
+aids
+twen
+lolli
+stuka
+# Kuratierung Durchgang 1 (2026-09-29): von der Kurzwort-Erkennung fälschlich
+# ausgeschlossene Alltagswörter (fehlten bisher als Substantiv ganz)
+# Durchgang 2: gabel, galle, pudel, murmel, emu, joch, radweg, export stehen nicht mehr hier —
+# die Erkennung beurteilt jetzt den ganzen Eintrag (alle Bedeutungen, Etymologie je Bedeutung,
+# verkürzte Komposita). Echte Kürzungen bleiben: frust, tacho, kandis, pleuel. Aus dem
+# Nachtrag oben sind hymne, kirsch, hänger, roller aus demselben Grund entfallen.
+frust    # eingebürgert, wird nicht als Kürzung empfunden
+tacho    # übliche Alltagsbezeichnung
+kandis   # übliche Bezeichnung (Kandiszucker)
+pleuel   # Fachwort, aber kein Kurzwort

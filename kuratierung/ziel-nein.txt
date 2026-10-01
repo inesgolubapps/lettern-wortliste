@@ -1,0 +1,1076 @@
+# Formen, die gültige Extrawörter bleiben, aber nie Zielwörter werden
+# (Zielwort = das Spiel *verlangt* das Wort). Format: wort  # Grund
+# Die spätere Kuratierung (KONZEPT §13.2.5 Schritt 3) ergänzt diese Liste.
+geil        # umgangssprachlich/sexuell konnotiert
+geile
+geiler
+geiles
+geilen
+sex         # als Pflichtwort unpassend
+sexy
+nazi        # nie als Pflichtwort
+nazis
+san         # „San Francisco", „-san": Häufigkeit stammt aus Namen, Lesarten (Ethnie, Heiligen-Präfix) kennt kaum wer
+
+# --- Kuratierung Durchgang 1 (2026-09-29): Diagnose-Top-100, alle Zielformen mit 3–6
+# Buchstaben, alle Zielformen mit starkem Warn-Flag, häufige Nicht-Zielwörter.
+# Jede Entscheidung steht auch in kuratierung.tsv. Die Formen bleiben gültige Extrawörter.
+#
+# Pflichtwort unpassend: Gewalt, Tod, Krieg, Krankheit, Waffen, Drogen, Verbrechen, NS, Sexuelles, Heikles
+abspritzen    # sexueller Doppelsinn
+alzheimer     # Krankheit; Name
+amok          # Gewalt, als Pflichtwort unpassend
+anal          # Körper/sexuell, als Pflichtwort unpassend
+anus          # Körperöffnung, als Pflichtwort unpassend
+apartheid     # Rassentrennung, als Pflichtwort heikel
+asthma        # Krankheit, als Pflichtwort unpassend
+atombombe     # Krieg, als Pflichtwort unpassend
+attentat      # Gewalt, als Pflichtwort unpassend
+attentäter    # Gewalt, als Pflichtwort unpassend
+bewaffnet     # Waffen, als Pflichtwort unpassend
+bewaffnete    # Waffen, als Pflichtwort unpassend
+bewaffnung    # Waffen, als Pflichtwort unpassend
+blatter       # Name; Krankheit
+bombe         # Gewalt/Krieg, als Pflichtwort unpassend
+bomben        # Gewalt/Krieg, als Pflichtwort unpassend
+bomber        # Krieg; englisch
+bordell       # sexuell, als Pflichtwort unpassend
+brustkrebs    # Krankheit, als Pflichtwort unpassend
+brüste        # sexueller Beiklang
+buchenwald    # Name eines Konzentrationslagers, als Pflichtwort heikel
+bundesheer    # Eigenname einer Institution; Militär
+bundeswehr    # Eigenname einer Institution; Militär
+burka         # religiös-politisch aufgeladen, als Pflichtwort heikel
+busen         # sexueller Beiklang, als Pflichtwort unpassend
+corona        # Krankheit; Name
+demenz        # Krankheit, als Pflichtwort unpassend
+depression    # Krankheit, als Pflichtwort unpassend
+domina        # sexueller Beiklang
+droge         # Drogen, als Pflichtwort unpassend
+drogen        # Drogen, als Pflichtwort unpassend
+dschihad      # religiös-politisch, Gewalt
+entführen     # Verbrechen, als Pflichtwort unpassend
+entführt      # Verbrechen, als Pflichtwort unpassend
+entführung    # Verbrechen, als Pflichtwort unpassend
+epidemie      # Krankheit, als Pflichtwort unpassend
+ermorden      # Gewalt, als Pflichtwort unpassend
+ermordet      # Gewalt, als Pflichtwort unpassend
+ermordete     # Gewalt, als Pflichtwort unpassend
+ermordung     # Gewalt, als Pflichtwort unpassend
+erotik        # sexuell
+erschießen    # Gewalt, als Pflichtwort unpassend
+erschlagen    # Gewalt, als Pflichtwort unpassend
+erschossen    # Gewalt, als Pflichtwort unpassend
+faschismus    # NS-/politischer Begriff, als Pflichtwort heikel
+fixen         # Drogenbedeutung
+folter        # Gewalt, als Pflichtwort unpassend
+foltern       # Gewalt, als Pflichtwort unpassend
+galgen        # Todesstrafe, als Pflichtwort unpassend
+gangster      # Verbrechen; englisch
+gau           # kaum bekannt; Häufigkeit aus Abkürzung GAU, NS-Beiklang
+geisel        # Verbrechen, als Pflichtwort unpassend
+genozid       # Gewalt, als Pflichtwort unpassend
+gestapo       # NS-Begriff
+gestorben     # Tod/Sterben als Pflichtwort unpassend
+getötet       # Gewalt, als Pflichtwort unpassend
+gewalt        # Gewalt, als Pflichtwort unpassend
+gewaltsam     # Gewalt, als Pflichtwort unpassend
+gewehr        # Waffe, als Pflichtwort unpassend
+ghetto        # historisch belastet
+granate       # Waffe, als Pflichtwort unpassend
+grippe        # Krankheit, als Pflichtwort unpassend
+gruft         # Grabstätte, als Pflichtwort düster
+gülle         # Jauche, als Pflichtwort unappetitlich
+hakenkreuz    # NS-Symbol
+henker        # Hinrichtung, als Pflichtwort unpassend
+heroin        # Droge
+hetero        # Kurzwort; sexuelle Orientierung
+high          # englisch; Drogenrausch
+hoden         # Geschlechtsorgan, als Pflichtwort unpassend
+hospiz        # Sterben, als Pflichtwort unpassend
+infektion     # Krankheit, als Pflichtwort unpassend
+inzest        # sexuell/Straftat, als Pflichtwort unpassend
+islamisten    # religiös-politisch, Gewalt
+jude          # Religionszugehörigkeit, als Pflichtwort heikel
+juden         # Religionszugehörigkeit, als Pflichtwort heikel
+jüdin         # Religionszugehörigkeit, als Pflichtwort heikel
+kanone        # Waffe, als Pflichtwort unpassend
+kanonen       # Waffe, als Pflichtwort unpassend
+kat           # Droge bzw. Kurzwort (Katalysator)
+kath          # Droge; unbekannt
+kiffen        # Drogen
+kokain        # Droge
+koks          # Drogenbedeutung dominiert
+koma          # Krankheit, als Pflichtwort unpassend
+kondom        # sexuell, als Pflichtwort unpassend
+kot           # Exkremente, als Pflichtwort unpassend
+krieg         # Krieg als Pflichtwort unpassend
+kriege        # Krieg als Pflichtwort unpassend
+kriegsende    # Krieg, als Pflichtwort unpassend
+krupp         # Krankheit; Name
+leiche        # Tod, als Pflichtwort unpassend
+leichen       # Tod, als Pflichtwort unpassend
+leichnam      # Tod, als Pflichtwort unpassend
+luftwaffe     # Militär, NS-Beiklang
+mafia         # Verbrechen, als Pflichtwort unpassend
+masern        # Krankheit, als Pflichtwort unpassend
+massaker      # Gewalt, als Pflichtwort unpassend
+meth          # Droge
+missbrauch    # Straftat/sexuelle Gewalt, als Pflichtwort unpassend
+morbus        # Krankheit; lateinisch
+mord          # Gewalt, als Pflichtwort unpassend
+morde         # Gewalt, als Pflichtwort unpassend
+morden        # Gewalt, als Pflichtwort unpassend
+mordfall      # Gewalt, als Pflichtwort unpassend
+munition      # Waffen, als Pflichtwort unpassend
+mörder        # Gewalt, als Pflichtwort unpassend
+neonazi       # NS-Begriff
+neonazis      # NS-Begriff
+nippel        # anzüglicher Beiklang
+opium         # Droge
+oral          # Fachwort, sexueller Beiklang
+orgie         # sexueller Beiklang
+pandemie      # Krankheit, als Pflichtwort unpassend
+pervers       # sexuell/abwertend
+pest          # Krankheit, als Pflichtwort unpassend
+pistole       # Waffe, als Pflichtwort unpassend
+potenz        # anzüglicher Beiklang
+prügel        # Gewalt, umgangssprachlich
+prügeln       # Gewalt, als Pflichtwort unpassend
+putsch        # gewaltsamer Umsturz, als Pflichtwort unpassend
+rasse         # auf Menschen bezogen heikel
+rassen        # auf Menschen bezogen heikel
+rassismus     # als Pflichtwort heikel
+rassist       # als Pflichtwort heikel
+rassisten     # als Pflichtwort heikel
+razzia        # Polizei/Verbrechen, als Pflichtwort unpassend
+revolver      # Waffe, als Pflichtwort unpassend
+rotz          # Nasensekret, umgangssprachlich
+sarg          # Tod, als Pflichtwort unpassend
+satan         # religiös-düster, als Pflichtwort unpassend
+schießerei    # Gewalt, als Pflichtwort unpassend
+schwanz       # vulgäre Nebenbedeutung, als Pflichtwort unpassend
+schwul        # sexuelle Orientierung, oft als Schimpfwort gebraucht
+schwule       # sexuelle Orientierung, oft als Schimpfwort gebraucht
+schwulen      # sexuelle Orientierung, oft als Schimpfwort gebraucht
+schwänze      # vulgäre Nebenbedeutung, als Pflichtwort unpassend
+schüsse       # Schusswaffen, als Pflichtwort unpassend
+selbstmord    # Tod, als Pflichtwort unpassend
+seuche        # Krankheit, als Pflichtwort unpassend
+sexismus      # sexuell konnotiert, als Pflichtwort heikel
+sexistisch    # sexuell konnotiert, als Pflichtwort heikel
+sexualität    # sexuell, als Pflichtwort unpassend
+sexuell       # sexuell, als Pflichtwort unpassend
+sexuelle      # sexuell, als Pflichtwort unpassend
+sexuellen     # sexuell, als Pflichtwort unpassend
+sexueller     # sexuell, als Pflichtwort unpassend
+shisha        # arabisch; Rauchen
+stalker       # englisch; Straftat
+starb         # Tod/Sterben als Pflichtwort unpassend
+starben       # Tod/Sterben als Pflichtwort unpassend
+sterbe        # Tod/Sterben als Pflichtwort unpassend
+sterben       # Tod/Sterben als Pflichtwort unpassend
+stirbt        # Tod/Sterben als Pflichtwort unpassend
+suizid        # Tod, als Pflichtwort unpassend
+tatort        # Verbrechen; Fernsehserie
+terror        # Gewalt, als Pflichtwort unpassend
+terrorist     # Gewalt, als Pflichtwort unpassend
+tod           # Tod/Sterben als Pflichtwort unpassend
+tode          # Tod/Sterben als Pflichtwort unpassend
+todesfall     # Tod, als Pflichtwort unpassend
+todesfälle    # Tod, als Pflichtwort unpassend
+todesopfer    # Tod, als Pflichtwort unpassend
+todestag      # Tod, als Pflichtwort unpassend
+tot           # Tod/Sterben als Pflichtwort unpassend
+tote          # Tod/Sterben als Pflichtwort unpassend
+toten         # Tod/Sterben als Pflichtwort unpassend
+toter         # Tod/Sterben als Pflichtwort unpassend
+tumor         # Krankheit, als Pflichtwort unpassend
+täter         # Verbrechen, als Pflichtwort unpassend
+tödlich       # Tod, als Pflichtwort unpassend
+tödliche      # Tod, als Pflichtwort unpassend
+tödlichen     # Tod, als Pflichtwort unpassend
+töten         # Gewalt, als Pflichtwort unpassend
+tötet         # Gewalt, als Pflichtwort unpassend
+tötung        # Gewalt, als Pflichtwort unpassend
+upper         # Droge; englisch
+urin          # Körperausscheidung, als Pflichtwort unpassend
+vergiften     # Gewalt, als Pflichtwort unpassend
+vergiftet     # Gewalt, als Pflichtwort unpassend
+vergiftung    # Gewalt, als Pflichtwort unpassend
+verprügeln    # Gewalt, als Pflichtwort unpassend
+verprügelt    # Gewalt, als Pflichtwort unpassend
+viren         # Krankheitserreger, als Pflichtwort unpassend
+virus         # Krankheitserreger, als Pflichtwort unpassend
+voodoo        # Kult; englisch
+waffe         # Waffe, als Pflichtwort unpassend
+waffen        # Waffe, als Pflichtwort unpassend
+waffenruhe    # Krieg, als Pflichtwort unpassend
+wehrmacht     # NS-Begriff
+weltkrieg     # Krieg, als Pflichtwort unpassend
+#
+# Konsistenz mit bereits ausgeschlossenen Grundformen: seit Durchgang 2 entscheidet das
+# Skript Englisch je Lemma (Babys folgt Baby, coole folgt cool, Apps folgt App); die
+# Einzelformen apps, babys, coole, coolen, partys standen hier und sind entfernt.
+#
+# Name, Marke, Ort (in der Praxis ein Eigenname)
+adobe         # praktisch Marke; Lehmziegel unbekannt
+alb           # praktisch Ortsname (Schwäbische Alb); Naturgeist kaum bekannt
+alba          # unbekannt; Häufigkeit aus Namen
+alf           # praktisch Name (Fernsehfigur); Sagenvogel unbekannt
+alfa          # unbekannt (Halfagras); praktisch Marke
+alpen         # praktisch Gebirgsname
+android       # Name eines Betriebssystems; Roboterbedeutung selten
+anhalt        # praktisch Regionsname; „Anhalt(spunkt)“ selten allein
+anke          # Vorname
+anna          # Vorname
+apache        # Volksname
+arte          # praktisch Sendername ARTE
+attila        # Name
+axel          # Vorname (Eislauf-Sprung kaum bekannt)
+bamberger     # Herkunftsbezeichnung zu Ortsnamen
+barbie        # Markenname
+basler        # Herkunftsbezeichnung zu Ortsnamen
+bayern        # praktisch Ländername
+benjamin      # Vorname
+benz          # praktisch Marke/Name
+bergstraße    # praktisch Regionsname
+berlinale     # Eigenname (Filmfestival)
+berner        # Herkunftsbezeichnung zu Ortsnamen
+bertram       # Vorname; Pflanze unbekannt
+bingen        # umgangssprachlich; englisch; Ortsname
+bloch         # regional (Baumstamm); Nachname
+bobby         # englisch; Vorname
+boeing        # Markenname
+bonner        # Herkunftsbezeichnung zu Ortsnamen
+bordeaux      # französisch; Stadtname
+borg          # unbekannt (Eber); Häufigkeit aus Namen
+brecht        # Häufigkeit aus Name Brecht
+bremer        # Herkunftsbezeichnung zu Ortsnamen
+brexit        # Eigenname-artig, Tagespolitik
+buddha        # Name des Religionsstifters
+bundesbank    # Eigenname einer Institution
+burke         # unbekannt (Glasgefäß); Name
+böhme         # Einwohnerbezeichnung; Nachname
+böhmen        # praktisch Regionsname
+caesar        # Name/historischer Titel
+cham          # unbekannt (Volk); Ortsname
+china         # praktisch Ländername
+chinas        # Ländername
+cicero        # Name; Druckerfachwort
+coca          # unbekannt (Kokastrauch); Marke
+cäsar         # Name/historischer Titel
+dax           # praktisch Name (Aktienindex DAX)
+dietrich      # Vorname
+eden          # Eigenname (Garten Eden)
+einstein      # Name
+elbe          # praktisch Flussname
+ellen         # praktisch Vorname; Plural von „Elle“ selten
+erika         # Vorname
+ethan         # Fachwort Chemie; Vorname
+eurovision    # Eigenname einer Institution
+eurozone      # Eigenname-artig
+eva           # Vorname
+faber         # lateinisch; Nachname/Marke
+franco        # Nebenschreibung von „franko“; Name
+frank         # praktisch Vorname; nur in „frank und frei“
+franke        # Einwohnerbezeichnung/Name
+franken       # praktisch Regions-/Währungsname
+franziska     # Vorname
+fritz         # Vorname; abwertend für Deutsche
+gaga          # umgangssprachlich; Name (Lady Gaga)
+gallen        # Häufigkeit aus Ortsname St. Gallen
+gauß          # Name/Einheit
+genesis       # Name (Bibelbuch)
+genfer        # Herkunftsbezeichnung zu Ortsnamen
+genua         # praktisch Stadtname
+googeln       # von Markenname abgeleitet
+grazer        # Herkunftsbezeichnung zu Ortsnamen
+grimm         # praktisch Name (Brüder Grimm)
+götze         # Häufigkeit aus Nachnamen
+haller        # Herkunftsbezeichnung zu Ortsnamen; Name
+hamm          # praktisch Stadtname
+han           # unbekannt; Häufigkeit aus Namen
+hans          # Vorname
+havanna       # praktisch Stadtname
+hegel         # Name (Philosoph)
+heinz         # Vorname
+herkules      # Name
+hermann       # Vorname
+hertz         # Einheit/Name
+hessen        # praktisch Ländername
+hobbit        # Fantasy-Eigenname
+homburg       # praktisch Ortsname
+horst         # Vorname; Greifvogelnest selten
+huber         # Nachname
+hugo          # Vorname; Getränkename
+hulk          # praktisch Name (Comicfigur)
+händel        # veraltet; Name (Komponist)
+hübner        # Nachname
+ironman       # englisch; Markenname
+italia        # italienisch; Ländername
+jean          # Kurzform/Vorname
+jenaer        # Herkunftsbezeichnung zu Ortsnamen
+jobcenter     # Eigenname-artig; englisch
+johannes      # Vorname
+kamerun       # praktisch Ländername
+kant          # praktisch Name (Philosoph)
+karibik       # praktisch Regionsname
+kate          # selten (Kleinbauernhaus); Vorname
+khan          # Herrschertitel, fast nur aus Namen bekannt
+kiel          # praktisch Stadtname
+kieler        # Herkunftsbezeichnung zu Ortsnamen
+klaus         # Vorname
+kongo         # praktisch Länder-/Flussname
+konstanz      # praktisch Stadtname
+kramer        # Nachname; Nebenform von „Krämer“
+kreml         # Eigenname
+krüger        # Nachname; Wortbedeutung unbekannt
+kölner        # Herkunftsbezeichnung zu Ortsnamen
+linzer        # Herkunftsbezeichnung zu Ortsnamen
+lund          # unbekannt (Vogel); Ortsname
+lutz          # Vorname
+lux           # Fachwort (Einheit); Häufigkeit aus Namen
+löffler       # Nachname; Vogelname unbekannt
+mainzer       # Herkunftsbezeichnung zu Ortsnamen
+manchester    # praktisch Stadtname
+manhattan     # praktisch Stadtteilname
+mars          # praktisch Planeten-/Markenname
+mauerfall     # historisches Ereignis, Eigenname-artig
+maya          # Volks-/Vorname
+meier         # Nachname
+mekka         # praktisch Stadtname
+merlin        # Name (Zauberer); Falke unbekannt
+michel        # Vorname
+mittelmeer    # geografischer Eigenname
+molly         # unbekannt (Zierfisch); Vorname
+nahost        # Regionsname
+napoleon      # Name
+neubauer      # Nachname
+neustadt      # praktisch Ortsname
+obi           # praktisch Marke (Baumarkt); Kimonogürtel kaum bekannt
+ohm           # Fachwort (Einheit) bzw. Name
+olympia       # Eigenname
+oscar         # Filmpreis; Vorname
+ostukraine    # Regionsname
+pariser       # Herkunftsbezeichnung zu Ortsnamen
+pascal        # Name/Einheit
+pazifik       # geografischer Eigenname
+pentagon      # praktisch Eigenname
+pfalz         # praktisch Regionsname
+picasso       # Name
+polen         # praktisch Ländername
+posen         # umgangssprachlich; Stadtname
+prager        # Herkunftsbezeichnung zu Ortsnamen
+preußen       # historischer Staatsname
+python        # englisch; Programmiersprache/Name
+reichstag     # Eigenname
+reuter        # Name; regionales Wort
+ried          # selten; Ortsname
+riedel        # Name; regionales Wort
+ries          # unbekannt (Papiermaß); Ortsname
+robinson      # Name
+rom           # praktisch Stadtname
+roma          # Volksbezeichnung bzw. Stadtname
+rover         # englisch; Marke
+saale         # praktisch Flussname
+sachs         # Nachname
+sachsen       # praktisch Ländername
+sankt         # Häufigkeit aus Namensbestandteil „Sankt“
+saudi         # aus Ländername abgeleitet
+schenk        # veraltet (Mundschenk); Nachname
+schiller      # Name
+scholl        # veraltet (schallen); Nachname
+schulze       # Nachname
+schwaben      # praktisch Regionsname
+schweden      # praktisch Ländername
+schweizer     # Herkunftsbezeichnung zu Ländernamen
+schütz        # Fachwort; Nachname
+seidel        # regional (Bierkrug); Nachname
+seth          # praktisch Vorname
+sharon        # Vorname
+siemens       # praktisch Firmenname
+stasi         # Eigenname (DDR-Geheimdienst), Kurzwort
+steven        # Vorname; Fachwort Seefahrt
+tagesschau    # Eigenname (Sendung)
+tara          # Fachwort; Name
+tarzan        # Name einer Romanfigur
+tate          # unbekannt; Name
+telekom       # praktisch Firmenname
+tesla         # Fachwort (Einheit); praktisch Marke
+thun          # Nebenform von Thunfisch; Stadtname
+tibet         # praktisch Ländername
+ulmer         # Herkunftsbezeichnung zu Ortsnamen
+ungarn        # praktisch Ländername
+vanessa       # Vorname
+vogt          # historisch; Häufigkeit aus Nachnamen
+volkswagen    # Markenname
+vox           # praktisch Sendername; lateinisch
+walther       # Name/Marke
+warner        # Name; englisch
+weltbank      # Eigenname einer Institution
+werder        # Name; regionales Wort
+werth         # regional (Flussinsel); Name
+westfalen     # praktisch Regionsname
+wiener        # Herkunftsbezeichnung zu Ortsnamen
+wiki          # Kurzwort; Name
+willi         # Vorname
+yang          # chinesische Philosophie; Name
+zürcher       # Herkunftsbezeichnung zu Ortsnamen
+ägypten       # praktisch Ländername
+#
+# Englisch oder andere Fremdsprache
+aba           # unbekannt (arabischer Umhang)
+adieu         # französischer Abschiedsgruß (Interjektion)
+admin         # englisch; Kurzwort
+adult         # englisch
+afro          # selten; Frisur, englisch
+analysis      # Fachwort; englisch
+angels        # englisch; Plural heißt „Angeln“
+anger         # selten (Dorfanger); englisch „anger“
+animal        # englisch
+anime         # japanisch; Kurzwort
+artist        # englisch häufiger; Zirkusartist selten
+arts          # englisch
+audio         # englisch; Kurzwort
+automotive    # englisch
+avatar        # englisch; Fachwort
+avenue        # englisch/französisch
+award         # englisch
+awards        # englisch
+banker        # englisch
+bell          # englisch; nur Imperativ
+biker         # englisch
+bingo         # englisch; Interjektion
+blizzard      # englisch
+blockchain    # englisch
+blog          # englisch (Internetjargon)
+blogger       # englisch (Internetjargon)
+blogs         # englisch (Internetjargon)
+booten        # englischer Fachbegriff
+born          # poetisch für Brunnen; englisch
+bridge        # englisch
+browser       # englisch
+bulletin      # französisch/englisch
+carsharing    # englisch
+causa         # lateinisch, Fachwort
+champions     # englisch
+chat          # englisch
+checken       # englisch, umgangssprachlich
+client        # englisch
+comeback      # englisch
+contra        # Nebenschreibung von „kontra“; lateinisch
+corps         # französisch, Fachwort
+corpus        # lateinisches Fachwort
+countdown     # englisch
+cover         # englisch
+credo         # lateinisch, bildungssprachlich
+cross         # englisch
+crossover     # englisch
+darts         # englisch
+design        # englisch
+designer      # englisch
+discounter    # englisch
+donna         # italienischer Titel
+downloaden    # englisch
+earl          # englischer Adelstitel
+email         # Häufigkeit aus englisch „E-Mail“; Emaille-Bedeutung selten
+emoji         # Internetjargon, japanisch
+expert        # englisch
+fiesta        # spanisch
+final         # englisch häufiger; bildungssprachlich
+find          # englisch; nur Imperativ
+firewall      # englisch
+fitness       # englisch
+flyer         # englisch
+follower      # englisch
+font          # englisches Fachwort
+foundation    # englisch
+fries         # Fachwort Architektur; englisch „fries“
+gamer         # englisch
+garden        # englisch
+genius        # lateinisch; englisch häufiger
+gepostet      # umgangssprachlich; englisch
+german        # englisch; Chemie-Fachwort unbekannt
+glamour       # englisch
+gospel        # englisch
+grand         # Fachwort Skat; englisch
+grande        # spanischer Adelstitel
+graph         # Fachwort; englisch
+guardian      # englisch; Zeitungsname
+halo          # Fachwort; englisch
+haram         # arabisch
+hardware      # englisch
+hashtag       # englisch
+hater         # englisch
+highschool    # englisch
+hightech      # englisch
+hiphop        # englisch
+hippie        # englisch
+hipster       # englisch
+homepage      # englisch
+hospital      # englisch häufiger
+hotline       # englisch
+hotspot       # englisch
+house         # englisch
+human         # englisch häufiger; bildungssprachlich
+hype          # englisch
+influencer    # englisch
+inner         # englisch; nur in Zusammensetzungen
+insider       # englisch
+instant       # englisch
+inter         # umgangssprachliches Kurzwort; englisch
+intro         # englisch; Kurzwort
+jackpot       # englisch
+jade          # selten als Farbwort; englisch
+junior        # englisch häufiger; nur nachgestellt gebräuchlich
+lake          # englisch häufiger; Salzlake selten allein
+laptop        # englisch
+league        # englisch
+live          # englisch
+lounge        # englisch
+madame        # französisch
+malware       # englisch
+managen       # englisch
+manager       # englisch
+manga         # japanisch
+masters       # englisch
+mate          # selten; englisch
+media         # englisch
+meme          # englisch (Internetjargon)
+messenger     # englisch
+mint          # englisch; selten als Farbwort
+miss          # englischer Titel
+mister        # englisch
+motion        # Fachwort; englisch
+multimedia    # englisch
+nature        # französisch, nur nachgestellt
+news          # englisch
+nexus         # lateinisch, Fachwort
+ninja         # japanisch
+noir          # französisch
+onlineshop    # englisch
+opera         # seltener Plural von „Opus“; englisch
+orchestra     # englisch
+page          # selten (Hotelpage); englisch häufiger
+pardon        # französisch; Interjektion
+piazza        # italienisch
+playlist      # englisch
+playoff       # englisch
+plaza         # spanisch/englisch
+plugin        # englisch
+porter        # englisch; Biersorte selten
+poste         # umgangssprachlich; englisch
+postet        # umgangssprachlich; englisch
+premium       # englisch
+promo         # englisch; umgangssprachlich
+pump          # umgangssprachlich (nur „auf Pump“); englisch
+pushen        # englisch, umgangssprachlich
+quantum       # selten; lateinisch/englisch
+quest         # englisch
+rain          # unbekannt (Ackerrain); englisch
+ranger        # englisch
+ratio         # lateinisch; englisch
+raven         # englisch
+reggae        # englisch/jamaikanisch
+resident      # englisch
+rocken        # englisch, umgangssprachlich
+roll          # englisch; nur Imperativ
+router        # englisch
+scan          # englisch
+scout         # englisch
+scrollen      # englisch
+senior        # englisch häufiger; nur nachgestellt gebräuchlich
+server        # englisch
+session       # englisch
+shirt         # englisch
+shirts        # englisch
+shitstorm     # englisch, derb
+shop          # englisch
+shoppen       # englisch
+showdown      # englisch
+sic           # lateinisch
+singles       # englisch
+skyline       # englisch
+smalltalk     # englisch
+smartphone    # englisch
+sneaker       # englisch
+snowboard     # englisch
+soap          # englisch; Kurzwort
+software      # englisch
+solar         # englisch häufiger; meist nur in Zusammensetzungen
+sole          # selten; englisch häufiger
+song          # englisch
+soundtrack    # englisch
+spam          # englisch
+spare         # Fachwort Bowling; englisch
+spoiler       # englisch
+sticker       # englisch
+streamen      # englisch
+strip         # englisch; Striptease
+summer        # englisch häufiger
+superior      # englisch/lateinisch
+tablet        # englisch; Kurzwort
+tablets       # englisch
+tags          # englisch (Etiketten); Plural von Tag heißt „Tage“
+teenie        # englisch, umgangssprachlich
+terminal      # englisch
+terra         # lateinisch
+touch         # englisch
+trans         # Kurzform; englisch
+tutorial      # englisch
+ultra         # Kurzwort; englisch
+user          # englisch
+verlinken     # Internetjargon
+versus        # lateinisch; englisch
+ward          # veraltet für „wurde“; englisch
+webdesign     # englisch
+website       # englisch
+wellness      # englisch
+whiskey       # englische Schreibung; Alkohol
+wifi          # englisch
+workshop      # englisch
+workshops     # englisch
+youtuber      # englisch
+zero          # englisch
+#
+# abwertend, derb, umgangssprachlich
+abartig       # abwertend
+abschaum      # abwertend für Menschen
+alk           # umgangssprachliches Kurzwort für Alkohol
+ami           # umgangssprachliches Kurzwort, leicht abwertend
+dez           # regional-umgangssprachlich; Häufigkeit aus Abkürzung Dez.
+dings         # umgangssprachliches Platzhalterwort
+gehn          # umgangssprachliche Schreibung von „gehen“
+heut          # umgangssprachliche Kurzform von „heute“
+homo          # umgangssprachlich, oft abwertend gebraucht
+isch          # umgangssprachlich (Kiezdeutsch)
+joa           # umgangssprachliche Interjektion
+knast         # umgangssprachlich; Gefängnis
+labern        # umgangssprachlich, abwertend
+luder         # abwertend
+macho         # abwertend
+multikulti    # umgangssprachliches Kurzwort, politisch
+pascha        # abwertend
+pott          # regional-umgangssprachlich
+prof          # umgangssprachliches Kurzwort
+pöbel         # abwertend
+sau           # derbe Nebenbedeutung (Schimpfwort), als Pflichtwort unpassend
+schaff        # umgangssprachliche Verkürzung; regional
+spießer       # abwertend
+sprech        # umgangssprachlich, selten
+stehn         # umgangssprachliche Schreibung von „stehen“
+weib          # abwertend
+weiber        # abwertend
+werd          # umgangssprachliche Verkürzung
+#
+# Buchstabe, Musiknote, Interjektion, nur in einer Wendung
+ach           # Interjektion; Substantiv nur in „mit Ach und Krach“
+alpha         # griechischer Buchstabe
+baba          # unbekannt (Titel, österr. Gruß)
+beta          # griechischer Buchstabe
+bravo         # Interjektion
+dato          # nur in „bis dato“
+deut          # nur in „keinen Deut“
+dritt         # nur in „zu dritt“
+eth           # Buchstabe
+finanz        # Singular ungebräuchlich, nur in Zusammensetzungen
+fis           # Musiknote
+gamma         # griechischer Buchstabe
+ges           # Musiknote
+gis           # Musiknote
+hallo         # Gruß/Interjektion
+hie           # nur in „hie und da“
+hoff          # nur Imperativ/ugs. Verkürzung, unter der Imperativ-Schwelle
+hopp          # Interjektion
+hurra         # Interjektion
+kappa         # griechischer Buchstabe
+lern          # nur Imperativ/ugs. Verkürzung, unter der Imperativ-Schwelle
+maßen         # nur in Wendungen („über die Maßen“), Anzeige als „Maß“ irreführend
+nenn          # nur Imperativ/ugs. Verkürzung, unter der Imperativ-Schwelle
+omega         # griechischer Buchstabe
+prost         # Trinkspruch/Interjektion
+setz          # nur Imperativ/ugs. Verkürzung, unter der Imperativ-Schwelle
+tja           # Interjektion
+viert         # nur in „zu viert“
+wenns         # nur in „ohne Wenn und Aber“; Häufigkeit aus ugs. „wenn’s“
+wohn          # nur Imperativ/ugs. Verkürzung, unter der Imperativ-Schwelle
+wünsch        # nur Imperativ/ugs. Verkürzung, unter der Imperativ-Schwelle
+zweit         # nur in „zu zweit“
+#
+# unbekannt, selten, veraltet, regional, Fachwort, Nebenform
+andre         # Nebenform von „andere“
+antifa        # politischer Kurzbegriff
+arg           # veraltend, heute kaum als Einzelwort gebraucht
+arge          # praktisch Abkürzung ARGE
+bey           # unbekannt (türkischer Titel)
+bien          # unbekannt; Häufigkeit aus Französisch
+bor           # Fachwort (chemisches Element)
+bora          # unbekannt (Fallwind)
+chan          # unbekannt (Karawanserei)
+chic          # Nebenschreibung von „schick“
+circus        # Nebenschreibung von „Zirkus“
+dab           # Jugendtrend, unbekannt
+dat           # mundartlich für „das“
+devon         # Fachwort Geologie; Grafschaftsname
+diakon        # kirchlicher Fachbegriff, selten
+dit           # mundartlich (berlinisch) für „das“
+esch          # unbekannt (Flurname)
+fei           # mundartliche Partikel
+fond          # kaum bekannt (Wagenfond)
+franc         # ehemalige Währung, selten
+gell          # regional
+genus         # Fachwort Grammatik/Biologie
+ger           # unbekannt (germanischer Speer)
+giro          # Fachwort (Banken)
+gran          # unbekannt (Apothekergewicht)
+haste         # Häufigkeit aus ugs. „haste“ = hast du
+heuer         # regional bzw. Fachwort Seefahrt
+ichs          # Plural von „Ich“ kaum gebräuchlich; Häufigkeit aus ugs. „ich’s“
+kali          # Kurzwort für Kalium; unbekannt
+kara          # unbekannt
+katz          # Nebenform von „Katze“
+kolleg        # selten; leicht mit „Kollege“ verwechselt
+kopp          # mundartlich für Kopf
+lehen         # historisch, Fachwort
+letzen        # veraltet; Häufigkeit aus ugs. Schreibung von „letzten“
+leut          # Nebenform von „Leute“
+magnum        # Kurzwort; Patrone
+mamma         # Fachwort Anatomie
+mans          # unbekannt (persisches Gewicht)
+marin         # Fachwort, selten
+mass          # bairisch; sonst Schweizer Schreibung von „Maß“
+min           # Häufigkeit aus Abkürzung min; chinesische Sprache unbekannt
+mol           # Fachwort (Einheit)
+nana          # unbekannt (Kunstwerk)
+nix           # Häufigkeit aus ugs. „nix“; Wassergeist kaum bekannt
+orion         # Sternbildname
+pas           # unbekannt (Tanzschritt, franz.)
+qua           # bildungssprachlich, selten
+regens        # unbekannt (Seminarleiter); Genitiv von „Regen“
+ren           # kaum bekannt (Rentier)
+ruh           # Nebenform von Ruhe
+russ          # Schweizer Schreibung von „Ruß“; ugs. für „Russe“
+sami          # unbekannt (Volk)
+sept          # Fachwort Musik; Häufigkeit aus Abkürzung
+soli          # Häufigkeit aus Kurzwort „Soli“ (Solidaritätszuschlag)
+sonder        # veraltet
+tora          # religiöses Fachwort, selten
+toto          # veraltende Kurzform, heute wenig bekannt
+wat           # unbekannt; Häufigkeit aus mundartl. „wat“
+yuan          # chinesische Währung
+# === Kuratierung Durchgang 2 (2026-09-30): Flips aus den Skriptkorrekturen und Durchsicht aller
+# 7–10-Buchstaben-Zielformen. Jede Entscheidung steht auch in kuratierung.tsv (pass 2).
+# Die Formen bleiben gültige Extrawörter. Bei englischen Lehnwörtern wirkt eine Grundform hier
+# auf das ganze Lemma (baby sperrt auch Babys, cool auch coole).
+#
+# Anglizismus, Entscheidung 2026-09-30
+app           # Anglizismus, Entscheidung 2026-09-30
+baby          # Anglizismus, Entscheidung 2026-09-30
+check         # Anglizismus, Entscheidung 2026-09-30
+checkliste    # Anglizismus („Check“), Entscheidung 2026-09-30
+city          # Anglizismus, Entscheidung 2026-09-30
+cool          # Anglizismus, Entscheidung 2026-09-30 (die Englisch-Regel ließe es wegen „coole“ herein)
+date          # Anglizismus, Entscheidung 2026-09-30
+event         # Anglizismus, Entscheidung 2026-09-30
+fake          # Anglizismus, Entscheidung 2026-09-30
+fan           # Anglizismus, Entscheidung 2026-09-30
+fanclub       # Anglizismus („Fan“), Entscheidung 2026-09-30
+happy         # Anglizismus, Entscheidung 2026-09-30
+job           # Anglizismus, Entscheidung 2026-09-30
+jobsuche      # Anglizismus („Job“), Entscheidung 2026-09-30
+lady          # Anglizismus, Entscheidung 2026-09-30
+nebenjob      # Anglizismus („Job“), Entscheidung 2026-09-30
+okay          # Anglizismus, Entscheidung 2026-09-30
+party         # Anglizismus, Entscheidung 2026-09-30
+show          # Anglizismus, Entscheidung 2026-09-30
+single        # Anglizismus, Entscheidung 2026-09-30
+smart         # Anglizismus, Entscheidung 2026-09-30 (die Englisch-Regel ließe es wegen „smarte“ herein)
+story         # Anglizismus, Entscheidung 2026-09-30
+team          # Anglizismus, Entscheidung 2026-09-30
+top           # Anglizismus, Entscheidung 2026-09-30
+#
+# Pflichtwort unpassend: Gewalt, Tod, Krieg, Krankheit, Waffen, Drogen, Verbrechen, NS, Sexuelles, Heikles
+ableben       # Tod, als Pflichtwort unpassend
+abschuss      # Tötung/Abschuss, als Pflichtwort unpassend
+abtreibung    # als Pflichtwort heikel
+allergie      # Krankheit, als Pflichtwort unpassend
+allergisch    # Krankheit, als Pflichtwort unpassend
+amoklauf      # Gewalt, wie „Amok“ als Pflichtwort unpassend
+annexion      # Krieg/Gewalt (gewaltsame Besetzung), als Pflichtwort unpassend
+anschläge     # Gewalt/Terror (Plural meint Attentate), als Pflichtwort unpassend
+anschlägen    # Gewalt/Terror (Plural meint Attentate), als Pflichtwort unpassend
+ansteckend    # Krankheit, als Pflichtwort unpassend
+artillerie    # Waffen/Krieg, als Pflichtwort unpassend
+autismus      # Krankheit/Störung, als Pflichtwort unpassend
+beerdigung    # Tod (Beerdigung), als Pflichtwort unpassend
+begraben      # Tod (Beerdigung), als Pflichtwort unpassend
+begräbnis     # Tod (Begräbnis), als Pflichtwort unpassend
+beileid       # Tod (Trauerfall), als Pflichtwort unpassend
+belagerung    # Krieg, als Pflichtwort unpassend
+beschuss      # Waffen/Krieg, als Pflichtwort unpassend
+bestattung    # Tod, als Pflichtwort unpassend
+bestechen     # Straftat (Bestechung), als Pflichtwort unpassend
+bestechung    # Straftat, als Pflichtwort unpassend
+blutung       # Verletzung/Krankheit, als Pflichtwort unpassend
+brutalität    # Gewalt, als Pflichtwort unpassend
+cannabis      # Droge
+cholera       # Krankheit, als Pflichtwort unpassend
+chronisch     # Krankheit (chronisch krank), als Pflichtwort unpassend
+depressiv     # psychische Krankheit, wie „Depression“ als Pflichtwort unpassend
+dessous       # erotischer Beiklang; französisch
+diabetes      # Krankheit, als Pflichtwort unpassend
+diabetiker    # Krankheit, als Pflichtwort unpassend
+durchfall     # Krankheit/Körperausscheidung, als Pflichtwort unpassend
+einmarsch     # Krieg (militärischer Einmarsch), als Pflichtwort unpassend
+entzündet     # Krankheit, als Pflichtwort unpassend
+entzündung    # Krankheit, als Pflichtwort unpassend
+epilepsie     # Krankheit, als Pflichtwort unpassend
+erbrechen     # Körperausscheidung, als Pflichtwort unpassend
+erkranken     # Krankheit, als Pflichtwort unpassend
+erkrankt      # Krankheit, als Pflichtwort unpassend
+erkrankte     # Krankheit, als Pflichtwort unpassend
+erkrankten    # Krankheit, als Pflichtwort unpassend
+erkrankung    # Krankheit, als Pflichtwort unpassend
+erkältung     # Krankheit, wie „Grippe“ als Pflichtwort unpassend
+erliegen      # Tod („an etwas sterben“), als Pflichtwort unpassend
+erotisch      # sexuell, als Pflichtwort unpassend
+erotische     # sexuell, als Pflichtwort unpassend
+erpressen     # Straftat, als Pflichtwort unpassend
+erpressung    # Straftat, als Pflichtwort unpassend
+erreger       # Krankheit (Krankheitserreger), als Pflichtwort unpassend
+ersticken     # Tod, als Pflichtwort unpassend
+ertrinken     # Tod, als Pflichtwort unpassend
+ertrunken     # Tod, als Pflichtwort unpassend
+fahndung      # Verbrechen/Polizeifahndung, als Pflichtwort unpassend
+feldzug       # Krieg, als Pflichtwort unpassend
+festnahme     # Polizei/Verbrechen, wie „Fahndung“ als Pflichtwort unpassend
+fetisch       # sexueller Beiklang
+friedhof      # Tod (Begräbnisstätte), wie „Sarg“, „Gruft“ als Pflichtwort unpassend
+gefecht       # Krieg, als Pflichtwort unpassend
+geldwäsche    # Straftat, als Pflichtwort unpassend
+geplündert    # Gewalt/Verbrechen, wie „plündern“
+geschütz      # Waffe, als Pflichtwort unpassend
+grabstein     # Tod, als Pflichtwort unpassend
+guerilla      # Krieg, als Pflichtwort unpassend
+haftbefehl    # Verbrechen/Haft, als Pflichtwort unpassend
+haftstrafe    # Verbrechen/Haft, als Pflichtwort unpassend
+hepatitis     # Krankheit, als Pflichtwort unpassend
+hinterhalt    # Gewalt (Überfall aus dem Hinterhalt), als Pflichtwort unpassend
+homophobie    # sexuelle Orientierung/Diskriminierung, als Pflichtwort heikel
+hungersnot    # Tod/Not, als Pflichtwort unpassend
+häuptling     # kolonial geprägte Fremdbezeichnung, wie „Indianer“ heikel
+höschen       # Unterwäsche, sexueller Beiklang
+indianer      # umstrittene Fremdbezeichnung, als Pflichtwort heikel
+infanterie    # Waffen/Krieg, wie „Artillerie“
+infizieren    # Krankheit, als Pflichtwort unpassend
+infiziert     # Krankheit, als Pflichtwort unpassend
+influenza     # Krankheit, als Pflichtwort unpassend
+islamismus    # religiös-politisch, Gewalt
+jüdisch       # Religionszugehörigkeit, wie „Jude“ als Pflichtwort heikel
+jüdische      # Religionszugehörigkeit, wie „Jude“ als Pflichtwort heikel
+jüdischen     # Religionszugehörigkeit, wie „Jude“ als Pflichtwort heikel
+jüdischer     # Religionszugehörigkeit, wie „Jude“ als Pflichtwort heikel
+kaliber       # Waffen (Geschossdurchmesser), als Pflichtwort unpassend
+kavallerie    # Waffen/Krieg, wie „Artillerie“
+kreuzzug      # Krieg (religiöser Feldzug), als Pflichtwort unpassend
+kriminell     # Straftat, als Pflichtwort unpassend
+kriminelle    # Straftat, als Pflichtwort unpassend
+lazarett      # Krieg/Krankheit (Militärkrankenhaus), als Pflichtwort unpassend
+lebensende    # Tod, als Pflichtwort unpassend
+lesbisch      # sexuelle Orientierung, wie „schwul“ als Pflichtwort heikel
+leukämie      # Krankheit, als Pflichtwort unpassend
+lösegeld      # Verbrechen (Entführung), als Pflichtwort unpassend
+malaria       # Krankheit, als Pflichtwort unpassend
+marihuana     # Droge
+migräne       # Krankheit, als Pflichtwort unpassend
+märtyrer      # Tod (Märtyrertod), als Pflichtwort unpassend
+nachruf       # Tod (Nachruf auf Verstorbene), als Pflichtwort unpassend
+notwehr       # Gewalt (Gegenwehr), als Pflichtwort unpassend
+nötigung      # Straftat, als Pflichtwort unpassend
+ohrfeige      # Gewalt (Schlag), wie „prügeln“ als Pflichtwort unpassend
+paranoia      # psychische Krankheit, als Pflichtwort unpassend
+pathologie    # Krankheit/Tod (Obduktion), als Pflichtwort unpassend
+patrone       # Munition, als Pflichtwort unpassend
+pinkeln       # Körperausscheidung, umgangssprachlich
+plündern      # Gewalt/Verbrechen (Plünderung), als Pflichtwort unpassend
+prostata      # Geschlechtsorgan/Krankheit, als Pflichtwort unpassend
+psychose      # psychische Krankheit, als Pflichtwort unpassend
+pädophilie    # sexuell/Straftat, als Pflichtwort unpassend
+requiem       # Tod (Totenmesse), als Pflichtwort unpassend
+ruhr          # Krankheit; Häufigkeit aus Flussname
+scharia       # religiös-politisch aufgeladen, als Pflichtwort heikel
+scheide       # anatomisch-sexueller Beiklang, als Pflichtwort unpassend
+schlacht      # Krieg, als Pflichtwort unpassend
+schlachten    # Krieg/Tötung, als Pflichtwort unpassend
+schlägerei    # Gewalt, als Pflichtwort unpassend
+schnupfen     # Krankheit, wie „Grippe“ als Pflichtwort unpassend
+schwellung    # Verletzung/Krankheit, als Pflichtwort unpassend
+schwert       # Waffe, als Pflichtwort unpassend
+sklaven       # Sklaverei, als Pflichtwort heikel
+sklaverei     # Sklaverei, als Pflichtwort heikel
+sklavin       # Sklaverei, als Pflichtwort heikel
+straftat      # Verbrechen, als Pflichtwort unpassend
+straftaten    # Verbrechen, als Pflichtwort unpassend
+straftäter    # Verbrechen, wie „Täter“ als Pflichtwort unpassend
+syndrom       # Krankheit, als Pflichtwort unpassend
+süchtig       # Sucht/Drogen, als Pflichtwort unpassend
+totschlag     # Tötung, als Pflichtwort unpassend
+trauern       # Tod/Trauer, als Pflichtwort unpassend
+tränengas     # Waffe, als Pflichtwort unpassend
+umbringen     # Tötung, als Pflichtwort unpassend
+umgebracht    # Tötung, als Pflichtwort unpassend
+unterhose     # Unterwäsche, als Pflichtwort unpassend (Bericht M0)
+verbrechen    # Verbrechen, als Pflichtwort unpassend
+verbrecher    # Verbrechen, als Pflichtwort unpassend
+verhaften     # Polizei/Haft, wie „Festnahme“ als Pflichtwort unpassend
+verhaftet     # Polizei/Haft, wie „Festnahme“ als Pflichtwort unpassend
+verhaftung    # Polizei/Haft, wie „Festnahme“ als Pflichtwort unpassend
+verhungern    # Tod, als Pflichtwort unpassend
+verhütung     # sexuell (Empfängnisverhütung), als Pflichtwort unpassend
+verstorben    # Tod, als Pflichtwort unpassend
+verwundet     # Krieg/Verletzung, wie „Verwundete“
+verwundete    # Krieg/Verletzung, als Pflichtwort unpassend
+vibrator      # sexuell, als Pflichtwort unpassend
+vorspiel      # sexueller Doppelsinn
+völkermord    # Gewalt, als Pflichtwort unpassend
+völkisch      # NS-Beiklang
+zerstörer     # Krieg (Kriegsschiff), als Pflichtwort unpassend
+zombies       # Horror (Untote); englisch
+zuchthaus     # Haft, veraltend
+zuhälter      # Verbrechen/Prostitution, als Pflichtwort unpassend
+überdosis     # Drogen/Tod, als Pflichtwort unpassend
+überfall      # Gewalt/Verbrechen, als Pflichtwort unpassend
+überfallen    # Gewalt/Verbrechen, wie „Überfall“
+übergriff     # Gewalt/Übergriff, als Pflichtwort unpassend
+übergriffe    # Gewalt/Übergriff, als Pflichtwort unpassend
+#
+# Name, Marke, Ort (in der Praxis ein Eigenname)
+aspirin       # Markenname eines Arzneimittels
+augsburger    # Herkunftsbezeichnung zu Ortsnamen
+augustus      # Name (römischer Kaiser)
+bavaria       # Name (Personifikation Bayerns; Marke, Verein)
+bochumer      # Herkunftsbezeichnung zu Ortsnamen
+brockhaus     # Name eines Lexikons/Verlags
+bundesliga    # Eigenname einer Institution (Liga)
+bundesrat     # Eigenname einer Institution (Verfassungsorgan)
+bundestag     # Eigenname einer Institution (Parlament)
+celsius       # Einheit nach einem Namen (wie ohm, hertz, pascal)
+charlotte     # Vorname; Süßspeise kaum bekannt
+chemnitzer    # Herkunftsbezeichnung zu Ortsnamen
+diakonie      # Name einer kirchlichen Einrichtung; Fachwort
+dresdner      # Herkunftsbezeichnung zu Ortsnamen
+duisburger    # Herkunftsbezeichnung zu Ortsnamen
+elsässer      # Herkunftsbezeichnung (Region), selten
+essener       # Herkunftsbezeichnung zu Ortsnamen
+fahrenheit    # Einheit nach einem Namen (wie Celsius)
+fiedler       # Häufigkeit aus Nachname; das Wort (Geiger) selten
+freiburger    # Herkunftsbezeichnung zu Ortsnamen
+germania      # Name (Personifikation Germaniens)
+habsburger    # Name (Herrscherhaus)
+hamburger     # Herkunftsbezeichnung zu Ortsnamen; die Speise trägt die Häufigkeit nicht
+johanniter    # Name (Orden, Hilfsorganisation)
+kretschmer    # Nachname; Wortbedeutung (Dorfwirt) unbekannt
+lausitzer     # Herkunftsbezeichnung (Region)
+lübecker      # Herkunftsbezeichnung zu Ortsnamen
+madonna       # Häufigkeit aus Künstlername; religiöser Titel
+martini       # Häufigkeit aus Markenname (Getränk)
+morgenpost    # Häufigkeit aus Zeitungsnamen; als Wort selten
+münchener     # Herkunftsbezeichnung zu Ortsnamen
+olympiade     # Eigenname-artig (Olympische Spiele), wie „Olympia“
+pegasus       # Name (Sagengestalt)
+pfälzer       # Herkunftsbezeichnung zu Ortsnamen
+rostocker     # Herkunftsbezeichnung zu Ortsnamen
+scheuer       # Häufigkeit aus Nachname; „Scheuer“ (Scheune) regional
+schröter      # Häufigkeit aus Nachname; Berufsbezeichnung selten
+strasser      # Häufigkeit aus Nachname; Taubenrasse unbekannt
+taliban       # Name einer Organisation (Gewalt)
+thüringer     # Herkunftsbezeichnung zu Ortsnamen (auch Rostbratwurst)
+tiroler       # Herkunftsbezeichnung zu Ortsnamen
+trojaner      # Name (Bewohner Trojas) bzw. Schadsoftware
+würzburger    # Herkunftsbezeichnung zu Ortsnamen
+#
+# Englisch oder andere Fremdsprache
+ass           # englischer vulgärer Homograph trägt die Häufigkeit; „Ass“ bleibt Extrawort
+bachelor      # englisch (akademischer Grad)
+bloggen       # englisch (Internetjargon), wie „Blog“
+bourbon       # englisch (Whiskeysorte); Name
+burnout       # englisch; Krankheit
+desktop       # englisch
+einloggen     # englisch (Internetjargon „log in“)
+end           # Häufigkeit aus englisch „end“; deutsch nur in Zusammensetzungen
+fix           # umgangssprachlich; Häufigkeit überwiegend englisch „fix“
+flatrate      # englisch
+hack          # englisch/umgangssprachlich; Verbform „hack“ ungebräuchlich
+hall          # Nachhall bekannt, Häufigkeit aber überwiegend englisch „hall“
+livestream    # englisch
+liveticker    # englisch
+loser         # liest sich als englisch „loser“; Komparativ von „lose“ selten
+managerin     # englisch, wie „Manager“
+marquis       # französischer Adelstitel, in der Praxis Namensteil
+masterplan    # englisch („master plan“)
+monsieur      # französisch
+newsletter    # englisch
+palazzo       # italienisch
+posts         # englisch; Plural von „Post“ im Internetsinn
+rockband      # englisch („rock band“)
+rockstar      # englisch
+scannen       # englisch, wie „Scan“
+scanner       # englisch, wie „Scan“
+son           # unbekannt; Häufigkeit aus englisch „son“
+superstar     # englisch
+talkshow      # englisch
+tequila       # spanisch; Name einer Spirituose
+terminator    # englisch; Filmtitel
+topmodel      # englisch
+trigger       # englisch
+#
+# abwertend, derb, umgangssprachlich
+bekloppt      # umgangssprachlich, abwertend
+bescheuert    # umgangssprachlich, abwertend
+besoffen      # umgangssprachlich (betrunken)
+doll          # regional-umgangssprachlich („nicht so doll“)
+gelaber       # umgangssprachlich, abwertend
+hintern       # Körperteil, umgangssprachlich
+kaff          # abwertend
+mädchens      # umgangssprachlicher Plural/Genitiv, als Pflichtwort unpassend
+rauswurf      # umgangssprachlich, selten
+schwänzen     # vulgärer Homograph (Dativ Plural von „Schwanz“)
+verdammt      # Fluchwort, umgangssprachlich
+verdammte     # Fluchwort, umgangssprachlich
+verdammten    # Fluchwort, umgangssprachlich
+verdammter    # Fluchwort, umgangssprachlich
+versager      # abwertend
+versaut       # derb/zotig
+versteh       # umgangssprachliche Verkürzung (ich versteh), wie „werd“, „lern“
+wurscht       # umgangssprachlich/regional
+zach          # umgangssprachlich (österreichisch „zäh“)
+#
+# Buchstabe, Musiknote, Interjektion, nur in einer Wendung
+arbeits       # kein eigenständiges Wort (nur Kompositionsglied „Arbeits-“)
+betracht      # nur in der Wendung „in Betracht“
+einhalt       # nur in der Wendung „Einhalt gebieten“
+halleluja     # Kirchengesang/Interjektion
+handels       # nur Genitiv von „Handel“ (Tabellenfehler hielt es im Ziel)
+herrgott      # Ausruf/Fluch („Herrgott!“)
+klosters      # nur Genitiv von „Kloster“ (Tabellenfehler hielt es im Ziel)
+nachhinein    # nur in der Wendung „im Nachhinein“
+#
+# unbekannt, selten, veraltet, regional, Fachwort, Nebenform
+biographie    # Nebenschreibung von „Biografie“ (Ziel ist die empfohlene Schreibung)
+bischen       # Häufigkeit aus Falschschreibung von „bisschen“; Verb unbekannt
+ern           # regional (Hausflur), unbekannt
+gemarkung     # Fachwort (Verwaltung), kaum bekannt
+geographie    # Nebenschreibung von „Geografie“ (Ziel ist die empfohlene Schreibung)
+graphik       # Nebenschreibung von „Grafik“
+lore          # selten (Feldbahnwagen); Häufigkeit aus Vorname/englisch
+mare          # unbekannt (Mondmeer); Häufigkeit aus Namen/englisch
+nimmer        # veraltet/regional
+phantasie     # Nebenschreibung von „Fantasie“ (Ziel ist die empfohlene Schreibung)
+symphonie     # Nebenschreibung von „Sinfonie“ (Ziel ist die empfohlene Schreibung)
+star          # Anglizismus (engl. s-Plural), Entscheidung 2026-09-30
+comic         # Anglizismus (engl. s-Plural), Entscheidung 2026-09-30
+stars         # Anglizismus, Entscheidung 2026-09-30
+comics        # Anglizismus, Entscheidung 2026-09-30
+klo           # umgangssprachlich, als Pflichtwort unpassend (Seite 8, Hauptsession 2026-09-30)
+tsunami       # Katastrophe, als Pflichtwort unpassend

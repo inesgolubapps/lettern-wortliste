@@ -1,0 +1,318 @@
+# Wörter, die im Zielwortschatz stehen MÜSSEN, sofern sie in der Akzeptanzliste
+# stehen (Sicherheitsnetz für Funktionswörter). Eine Zeile pro Wortform, klein.
+# Grund: Rezensionen des Vorbilds zeigen, dass abgelehnte Alltagswörter
+# (als, ist, hat …) das Vertrauen am schnellsten zerstören (KONZEPT §13.2.1).
+als
+aus
+bei
+nie
+ist
+hat
+und
+oder
+aber
+auch
+nur
+noch
+schon
+sehr
+mit
+von
+vor
+nach
+für
+auf
+über
+unter
+ohne
+um
+gegen
+bis
+seit
+wie
+wer
+was
+wo
+wann
+warum
+hier
+dort
+da
+dann
+denn
+doch
+nun
+nicht
+kein
+ein
+eine
+der
+die
+das
+den
+dem
+des
+ich
+du
+er
+sie
+es
+wir
+ihr
+mich
+dich
+sich
+uns
+euch
+mir
+dir
+ihm
+ihn
+sein
+bin
+bist
+sind
+seid
+war
+habe
+hast
+haben
+wird
+wurde
+kann
+muss
+soll
+will
+mag
+darf
+ja
+nein
+gut
+neu
+alt
+danke
+bitte
+august      # Monat; sonst als Vorname mit englischer Häufigkeit ausgefiltert
+# Dreibuchstabige Alltagswörter, die die Regel „Englisch mindestens so häufig" sonst träfe:
+bad
+bus
+gas
+bar
+her
+all
+not
+bat
+art
+zoo
+arm
+# Alltagswörter, die sonst als Homograph eines gesperrten Worts ausfielen
+# (Kraut als Ethnophaulismus, Pack als „Gesindel")
+kraut
+pack
+# Kuratierung Durchgang 1 (2026-09-29): Alltagswörter, die eine Regel zu Unrecht
+# ausschloss (englischer Homograph, falsche Registermarke, Kurzwort-Erkennung, Schwelle).
+# Eingebürgerte Anglizismen nur, wenn sie seit Jahrzehnten deutsch sind oder eine ihrer
+# Formen schon Ziel ist; Team, Job, Party, Baby, cool, okay, Show bleiben bewusst draußen.
+per          # Alltagspräposition („per Post“); fiel als englischer Vorname heraus
+via          # Alltagspräposition („via E-Mail“); fiel wegen Englisch-Häufigkeit heraus
+ski          # Alltagswort (Ski); fiel als dreibuchstabig-englisch heraus
+gel          # Gel (Haargel); fiel als dreibuchstabig-englisch heraus
+ego          # Ego („sein Ego“); fiel als dreibuchstabig-englisch heraus
+cent         # Euro-Cent; fiel wegen Englisch-Häufigkeit heraus
+box          # Box, eingebürgert; fiel wegen Englisch-Häufigkeit heraus
+fit          # fit, eingebürgert; fiel wegen Englisch-Häufigkeit heraus
+trick        # „Tricks“ ist Ziel; Grundform fiel als englisch heraus
+chip         # „Chips“ ist Ziel; Grundform fiel als englisch heraus
+laser        # eingebürgert
+poster       # eingebürgert
+radar        # eingebürgert
+limit        # eingebürgert
+steak        # eingebürgert
+toast        # eingebürgert
+sandwich     # eingebürgert
+hockey       # eingebürgert
+mix          # eingebürgert
+comic        # eingebürgert
+teddy        # Alltagswort (Teddybär); steht schon in kurzwort-ok.txt
+training     # „Trainings“, „Trainer“ sind Ziel
+interview    # „Interviews“ ist Ziel
+atlas        # Alltagswort (Weltatlas); fiel als englischer Vorname heraus
+christen     # Plural von „Christ“; fiel wegen eines Vornamens als überhöht heraus
+gala         # Alltagswort; fiel als englischer Vorname heraus
+sauce        # amtliche Schreibung neben „Soße“; fiel als englisch aussehend heraus
+adel         # Alltagswort; Wiktionary markiert die Hauptbedeutung fälschlich als selten
+lächerlich   # Alltagswort; Wiktionary markiert alle Bedeutungen als abwertend
+metzger      # allgemein bekannt; Wiktionary markiert es als süddeutsch, und als Nachname
+             # nimmt es die Regionalregel (Durchgang 2) nicht mit
+bohnen       # Plural von „Bohne“; fiel als überhöht heraus
+erdbeere     # Alltagswort unter der Häufigkeitsschwelle
+erdbeeren    # Alltagswort unter der Häufigkeitsschwelle
+klamotten    # Alltagswort (salopp); fiel als überhöht heraus
+passanten    # Alltagswort unter der Lemma-Schwelle
+# Durchgang 2: see, gen, fee, angel, mine, christ (englische Zwillinge), fair, tests, digital,
+# export, monitor, tank, clever, pony, sensor, medium, farm, boss (Englisch je Lemma, deutsche
+# Flexion), zuschauen, sonnabend, pastor (Regionalregel), zuneigung, vorschau („Plural selten“),
+# radweg, gabel, frust (Kurzwort-Erkennung) stehen nicht mehr hier: das Skript erkennt sie selbst.
+# === Kuratierung Durchgang 2 (2026-09-30): Alltagswörter, die eine Regel zu Unrecht ausschloss.
+# Bei englischen Lehnwörtern wirkt eine Grundform hier auf das ganze Lemma.
+trance        # Alltagswort („in Trance“); fiel mit der genaueren Entlehnungserkennung als englisch heraus
+# === Kuratierung Durchgang 3 (2026-09-30): Themenwörter aus
+# Tools/levelgen/themes/wunschliste.tsv, die zum Bild ihres Bogens passen und die jeder kennt.
+# Sie lagen nur unter der Häufigkeitsschwelle (wordfreq kennt Naturwörter schlecht). Abgelehnt:
+# Genitive (waldes, windes, hafens, himmels, adlers), bohlen (Nachname), thermal, obsidian
+# (Fachwörter) — siehe kuratierung.tsv.
+abendrot    # Thema Kornfeld, Wolken, Ausblick; allgemein bekannt, unter der Häufigkeitsschwelle
+algen       # Thema Watt; allgemein bekannt, unter der Häufigkeitsschwelle
+ameisen     # Thema Wald, Urwald; allgemein bekannt, unter der Häufigkeitsschwelle
+antilope    # Thema Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+antilopen   # Thema Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+bankett     # Thema Burg; allgemein bekannt, unter der Häufigkeitsschwelle
+beduinen    # Thema Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+birnen      # Thema Garten, Obstwiese, Herbstwald; allgemein bekannt, unter der Häufigkeitsschwelle
+blitze      # Thema Wolken; allgemein bekannt, unter der Häufigkeitsschwelle
+brandung    # Thema Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+brausen     # Thema Wolken, Wasserfall, Schlucht; allgemein bekannt, unter der Häufigkeitsschwelle
+brotzeit    # Thema Kornfeld; Wiktionary: süddeutsch, aber bundesweit bekannt
+buchten     # Thema Watt, See, Küste, Insel, Fjord; allgemein bekannt, unter der Häufigkeitsschwelle
+burgen      # Thema Burg; allgemein bekannt, unter der Häufigkeitsschwelle
+burghof     # Thema Burg; allgemein bekannt, unter der Häufigkeitsschwelle
+bussard     # Thema Kornfeld; allgemein bekannt, unter der Häufigkeitsschwelle
+bäuerin     # Thema Obstwiese, Alm, Bauernhof, Kornfeld, Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+dampfen     # Thema Vulkan, Urwald; allgemein bekannt, unter der Häufigkeitsschwelle
+datteln     # Thema Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+donnern     # Thema Wolken, Wasserfall, Vulkan, Schlucht; allgemein bekannt, unter der Häufigkeitsschwelle
+dornen      # Thema Garten, Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+dreschen    # Thema Kornfeld; allgemein bekannt, unter der Häufigkeitsschwelle
+drossel     # Thema Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+edelweiß    # Thema Gebirge; allgemein bekannt, unter der Häufigkeitsschwelle
+eidechse    # Thema Wüste, Urwald; allgemein bekannt, unter der Häufigkeitsschwelle
+eisberg     # Thema Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+eisbrecher  # Thema Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+eisbären    # Thema Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+erbsen      # Thema Garten; allgemein bekannt, unter der Häufigkeitsschwelle
+erdkruste   # Thema Vulkan; allgemein bekannt, unter der Häufigkeitsschwelle
+erntezeit   # Thema Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+erstarrt    # Thema Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+faultier    # Thema Urwald; allgemein bekannt, unter der Häufigkeitsschwelle
+feldweg     # Thema Kornfeld; allgemein bekannt, unter der Häufigkeitsschwelle
+felswand    # Thema Gebirge, Wasserfall, Fjord, Schlucht; allgemein bekannt, unter der Häufigkeitsschwelle
+feuerrot    # Thema Vulkan; allgemein bekannt, unter der Häufigkeitsschwelle
+flattern    # Thema Blumenwiese; allgemein bekannt, unter der Häufigkeitsschwelle
+forellen    # Thema Wasserfall; allgemein bekannt, unter der Häufigkeitsschwelle
+forscherin  # Thema Vulkan, Eismeer, Urwald; allgemein bekannt, unter der Häufigkeitsschwelle
+fähren      # Thema See, Fluss, Hafen; allgemein bekannt, unter der Häufigkeitsschwelle
+fährte      # Thema Wald; allgemein bekannt, unter der Häufigkeitsschwelle
+gassen      # Thema Dorf; allgemein bekannt, unter der Häufigkeitsschwelle
+gatter      # Thema Burg; allgemein bekannt; eine Nebenlesart trägt eine Registermarke
+gazelle     # Thema Wüste, Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+gemahlen    # Thema Mühle; allgemein bekannt, unter der Häufigkeitsschwelle
+gerste      # Thema Bauernhof; allgemein bekannt, unter der Häufigkeitsschwelle
+geselle     # Thema Dorf; allgemein bekannt, unter der Häufigkeitsschwelle
+gipfeln     # Thema Alm, Gebirge, Ausblick; Dativ Plural von Gipfel und Verb gipfeln
+giraffe     # Thema Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+giraffen    # Thema Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+glitzern    # Thema Winter, Teich, Wasserfall; allgemein bekannt, unter der Häufigkeitsschwelle
+goldfisch   # Thema Teich; allgemein bekannt, unter der Häufigkeitsschwelle
+goldgelb    # Thema Kornfeld; allgemein bekannt, unter der Häufigkeitsschwelle
+grollen     # Thema Wolken, Vulkan; allgemein bekannt, unter der Häufigkeitsschwelle
+grotte      # Thema Küste; allgemein bekannt, unter der Häufigkeitsschwelle
+grotten     # Thema Schlucht; allgemein bekannt, unter der Häufigkeitsschwelle
+gräben      # Thema Watt; allgemein bekannt, unter der Häufigkeitsschwelle
+heiden      # Thema Heide; Plural von Heide (Landschaft); fiel als überhöht heraus
+hellgrün    # Thema Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+herden      # Thema Heide; allgemein bekannt, unter der Häufigkeitsschwelle
+hirten      # Thema Alm; allgemein bekannt, unter der Häufigkeitsschwelle
+hummeln     # Thema Garten; allgemein bekannt; eine Nebenlesart trägt eine Registermarke
+hölzer      # Thema Wald; allgemein bekannt, unter der Häufigkeitsschwelle
+hörner      # Thema Alm; allgemein bekannt, unter der Häufigkeitsschwelle
+irrgarten   # Thema Schlossgarten; allgemein bekannt, unter der Häufigkeitsschwelle
+karawane    # Thema Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+kastanie    # Thema Herbstwald, Park, Schlossgarten; allgemein bekannt, unter der Häufigkeitsschwelle
+keimen      # Thema Garten, Kornfeld, Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+kiesel      # Thema Garten, See, Küste, Fluss, Teich, Insel, Wasserfall; allgemein bekannt, unter der Häufigkeitsschwelle
+kirsche     # Thema Garten, Obstwiese, Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+kirschen    # Thema Garten, Obstwiese, Alm, Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+klappern    # Thema Mühle; allgemein bekannt, unter der Häufigkeitsschwelle
+klippen     # Thema Küste, Insel, Fjord; allgemein bekannt, unter der Häufigkeitsschwelle
+knirschen   # Thema Winter, Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+knistern    # Thema Winter; allgemein bekannt, unter der Häufigkeitsschwelle
+kornfeld    # Thema Kornfeld; allgemein bekannt, unter der Häufigkeitsschwelle
+kraniche    # Thema Herbstwald; allgemein bekannt, unter der Häufigkeitsschwelle
+kutschen    # Thema Schlossgarten; allgemein bekannt, unter der Häufigkeitsschwelle
+kürbisse    # Thema Herbstwald; allgemein bekannt, unter der Häufigkeitsschwelle
+lagune      # Thema Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+laternen    # Thema Park; allgemein bekannt, unter der Häufigkeitsschwelle
+lavendel    # Thema Lavendel; allgemein bekannt, unter der Häufigkeitsschwelle
+leitern     # Thema Obstwiese, Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+leuchtend   # Thema Herbstwald; allgemein bekannt, unter der Häufigkeitsschwelle
+libelle     # Thema Teich, Wasserfall; allgemein bekannt, unter der Häufigkeitsschwelle
+libellen    # Thema Teich; allgemein bekannt, unter der Häufigkeitsschwelle
+lichtung    # Thema Wald; allgemein bekannt, unter der Häufigkeitsschwelle
+mandeln     # Thema Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+marder      # Thema Wald; allgemein bekannt, unter der Häufigkeitsschwelle
+masten      # Thema See, Hafen; allgemein bekannt, unter der Häufigkeitsschwelle
+muscheln    # Thema Watt, Küste, Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+mühlstein   # Thema Mühle; allgemein bekannt, unter der Häufigkeitsschwelle
+nektar      # Thema Blumenwiese; allgemein bekannt, unter der Häufigkeitsschwelle
+nester      # Thema Blumenwiese, Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+nomaden     # Thema Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+nordisch    # Thema Fjord; allgemein bekannt, unter der Häufigkeitsschwelle
+nordlicht   # Thema Fjord, Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+orchidee    # Thema Urwald; allgemein bekannt, unter der Häufigkeitsschwelle
+orchideen   # Thema Urwald; allgemein bekannt, unter der Häufigkeitsschwelle
+palmen      # Thema Insel, Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+pflanzt     # Thema Garten; Verbform (er pflanzt)
+pflaume     # Thema Garten, Obstwiese; allgemein bekannt, unter der Häufigkeitsschwelle
+pilzen      # Thema Wald; Dativ Plural von Pilz (mit Pilzen)
+pinguine    # Thema Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+platanen    # Thema Park, Schlossgarten; allgemein bekannt, unter der Häufigkeitsschwelle
+prasseln    # Thema Wolken; allgemein bekannt, unter der Häufigkeitsschwelle
+quallen     # Thema Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+radeln      # Thema Heide, Insel; Wiktionary: süddeutsch, aber bundesweit bekannt
+rattern     # Thema Mühle; allgemein bekannt, unter der Häufigkeitsschwelle
+reiher      # Thema Teich; allgemein bekannt; eine Nebenlesart trägt eine Registermarke
+rittern     # Thema Burg; Dativ Plural von Ritter (bei den Rittern)
+rodeln      # Thema Winter; Wiktionary: regional markiert, aber bundesweit bekannt
+rosmarin    # Thema Lavendel, Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+rückenwind  # Thema Deich; allgemein bekannt, unter der Häufigkeitsschwelle
+salbei      # Thema Lavendel; allgemein bekannt, unter der Häufigkeitsschwelle
+salzig      # Thema Watt, Küste, Hafen, Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+schalen     # Thema Obstwiese; allgemein bekannt, unter der Häufigkeitsschwelle
+scheunen    # Thema Kornfeld; allgemein bekannt, unter der Häufigkeitsschwelle
+schilde     # Thema Burg; allgemein bekannt, unter der Häufigkeitsschwelle
+schimmern   # Thema Wolken, Teich, Wasserfall; allgemein bekannt, unter der Häufigkeitsschwelle
+schwalben   # Thema Wolken, Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+seeadler    # Thema Fjord; allgemein bekannt, unter der Häufigkeitsschwelle
+seehund     # Thema Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+seerosen    # Thema Teich; allgemein bekannt, unter der Häufigkeitsschwelle
+seestern    # Thema Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+seifen      # Thema Lavendel; allgemein bekannt, unter der Häufigkeitsschwelle
+silbern     # Thema Wolken, Wasserfall, Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+spatzen     # Thema Park; allgemein bekannt; eine Nebenlesart trägt eine Registermarke
+sprossen    # Thema Frühling; allgemein bekannt; eine Nebenlesart trägt eine Registermarke
+sprudeln    # Thema Wasserfall; allgemein bekannt, unter der Häufigkeitsschwelle
+sprudelt    # Thema Wasserfall; Verbform (es sprudelt)
+stampfen    # Thema Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+staubig     # Thema Kornfeld, Lavendel, Wüste, Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+steiler     # Thema Gebirge; Adjektivform von steil
+steinbock   # Thema Gebirge; allgemein bekannt, unter der Häufigkeitsschwelle
+strudel     # Thema Wasserfall, Schlucht; allgemein bekannt, unter der Häufigkeitsschwelle
+strände     # Thema Küste, Insel; allgemein bekannt, unter der Häufigkeitsschwelle
+stängel     # Thema Teich, Blumenwiese; allgemein bekannt, unter der Häufigkeitsschwelle
+symmetrie   # Thema Schlossgarten; allgemein bekannt, unter der Häufigkeitsschwelle
+teppiche    # Thema Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+termiten    # Thema Savanne; allgemein bekannt, unter der Häufigkeitsschwelle
+terrassen   # Thema Schlossgarten, Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+thymian     # Thema Lavendel, Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+tröpfchen   # Thema Wasserfall; Verkleinerung von Tropfen, eigenes Alltagswort
+turban      # Thema Wüste; allgemein bekannt, unter der Häufigkeitsschwelle
+wachtel     # Thema Kornfeld; allgemein bekannt, unter der Häufigkeitsschwelle
+walnuss     # Thema Herbstwald; allgemein bekannt, unter der Häufigkeitsschwelle
+walross     # Thema Eismeer; allgemein bekannt, unter der Häufigkeitsschwelle
+weinlese    # Thema Herbstwald; allgemein bekannt, unter der Häufigkeitsschwelle
+widerhall   # Thema Schlucht; allgemein bekannt, unter der Häufigkeitsschwelle
+windmühle   # Thema Mühle, Deich; allgemein bekannt, unter der Häufigkeitsschwelle
+zitronen    # Thema Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
+zugbrücke   # Thema Burg; allgemein bekannt, unter der Häufigkeitsschwelle
+zweige      # Thema Wiesental, Wald, Obstwiese, Herbstwald, Frühling; allgemein bekannt, unter der Häufigkeitsschwelle
+zypressen   # Thema Olivenhain; allgemein bekannt, unter der Häufigkeitsschwelle
